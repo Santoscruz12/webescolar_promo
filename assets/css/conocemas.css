@@ -1,0 +1,199 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.main-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: 0;
+}
+
+.nosotros {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.container, .container2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.container hr {
+  width: 47%;
+  border: none;
+  height: 1.2px;
+  background-color: #969191;
+}
+
+.container2 hr {
+  width: 40%;
+  border: none;
+  height: 1.2px;
+  background-color: #969191;
+}
+
+.contenido {
+  max-width: 60%;
+}
+
+.contenido h1 {
+  font-size: 32px;
+  margin-left: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contenido p {
+  font-size: 17px;
+  width: 70%;
+  margin-left: 30px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.imagen img {
+  width: 500px;
+  height: auto;
+}
+
+footer {
+  background-image: url('/innova/webescolar_promo/assets/image/Fondo_banner_parte_de_abajo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #c5c5c5;
+  padding: 20px 90px; /* aumenta espacio */
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.logo img
+{
+    height: 70px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container2 {
+  display: flex;
+  justify-content: space-between;
+}
+   .conten_iconos {
+
+            
+            display: flex;
+            align-items: center;
+            /* Alinea verticalmente al centro */
+            
+            /* Espacio entre elementos (opcional) */
+            padding: 0;
+            /* Elimina relleno interno */
+            margin: 0;
+
+
+
+        }
+
+        .conten_iconos_ico {
+            width: auto;
+            height: 30px;
+            object-fit: contain;
+           
+
+
+        }
+
+
+
+.info-contacto, .redes {
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer i {
+  margin-right: 8px;
+}
+ @media (max-width: 768px) {
+
+.nosotros
+{
+  display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 10px 0;
+}
+
+  footer {
+    padding: 20px 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .logo {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .footer-container,
+  .footer-container2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .footer-container p,
+  .footer-container2 p {
+    margin: 4px 0;
+  }
+
+  .info-contacto, .redes {
+    font-size: 14px;
+  }
+
+  .container,
+  .container2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .container hr,
+  .container2 hr {
+    width: 80%;
+  }
+
+  .conten_iconos {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .conten_iconos_ico {
+    height: 25px;
+  }
+}
+
+ 

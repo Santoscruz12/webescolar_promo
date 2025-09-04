@@ -1,0 +1,201 @@
+:root {
+    --primary-color: #2230b2;
+    --secondary-color: #f1c40f;
+    --text-color: #333;
+    --light-bg: #f5f5f5;
+    --dark-bg: #333;
+    --white: #ffffff;
+    --footer-bg: #e2e4e2;
+    
+    --font-base: 1rem;
+    --font-medium: 1.25rem;
+    --font-large: 1.5rem;
+    --font-xlarge: 2rem;
+    --font-xxlarge: 2.5rem;
+}
+
+/* Estructura base */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--light-bg);
+    color: var(--text-color);
+    font-family: "Red Hat Display", sans-serif;
+    line-height: 1.6;
+}
+
+.main-content {
+    flex: 1;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 80px;
+    background-image: url('assets/image/Fondo_banner_superior.png');
+    background-color: var(--dark-bg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    position: relative;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.hero-text {
+    width: 50%;
+    padding-right: 2rem;
+}
+
+.hero-image {
+    width: 50%;
+    text-align: right;
+}
+
+.hero-image img {
+    max-height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+.hero-title {
+    font-size: var(--font-xlarge);
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: var(--font-xxlarge);
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    font-size: var(--font-large);
+    margin-bottom: 1.5rem;
+}
+
+.highlight {
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.hero-cta {
+    margin-top: 2rem;
+}
+
+.hero-cta p {
+    font-size: var(--font-medium);
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background-color: var(--text-color);
+    color: var(--white);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: var(--font-base);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+/* Footer */
+.site-footer {
+    width: 100%;
+    background-color: var(--footer-bg);
+    padding: 1.5rem 0;
+    margin-top: auto;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text, .hero-image {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .hero-image {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .hero-image img {
+        max-height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        padding: 1rem;
+        flex-direction: column;
+    }
+    
+    .hero-title {
+        font-size: var(--font-large);
+    }
+    
+    .hero-subtitle {
+        font-size: var(--font-xlarge);
+    }
+    
+    .hero-description, .hero-cta p {
+        font-size: var(--font-base);
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 0 1rem;
+    }
+    
+    .hero-title {
+        font-size: var(--font-medium);
+    }
+    
+    .hero-subtitle {
+        font-size: var(--font-large);
+    }
+    
+    .cta-button {
+        padding: 0.5rem 1rem;
+    }
+}

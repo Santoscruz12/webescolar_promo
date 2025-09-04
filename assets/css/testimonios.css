@@ -1,0 +1,181 @@
+  
+  
+  .contenedor_test
+  { display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  flex: 1;
+  }
+  .heade {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .titulo {
+            font-size: 22px;
+            
+            text-align: left;
+        }
+
+        .container {
+          flex: 1;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container hr {
+            width: 100%;
+            border: none;
+            height: 1px;
+            background-color: #3a3a3a;
+        }
+
+        .testimonios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 80px;
+  max-width: 1200px;
+  margin:  auto; /* Esto centra el contenedor .testimonios */
+}
+
+.testimonio {
+  flex: 1;
+  max-width: 320px;
+  min-width: 250px;
+  padding: 16px;
+  margin: 0 10px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.testimonio h3 {
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.testimonio p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.testimonio span {
+  font-size: 14px;
+  color: #333;
+  font-style: italic;
+}
+
+footer {
+       background-image: url('/innova/webescolar_promo/assets/image/Fondo_banner_parte_de_abajo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #c5c5c5;
+  padding: 60px 120px; /* aumenta espacio */
+
+  
+  
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.logo img
+{
+    height: 70px;
+}
+.footer-container {
+  display: flex;
+  justify-content: start;
+  gap: 40px;
+  
+  
+}
+.footer-container2 {
+  display: flex;
+  justify-content: start;
+   gap: 40px;
+  
+  
+}
+
+
+
+.info-contacto, .redes {
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer i {
+  margin-right: 8px;
+}
+
+@media (max-width: 900px) {
+  .testimonios {
+    padding: 20px 10px;
+    gap: 10px;
+  }
+  .testimonio h3 {
+    font-size: 20px;
+  }
+  .testimonio p,
+  .testimonio span {
+    font-size: 13px;
+  }
+  footer {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonios {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 2px;
+    gap: 10px;
+  }
+  .testimonio {
+    margin: 10px 0;
+    padding: 18px 5px;
+    width: 100%;
+    max-width: 350px;
+  }
+  .testimonio h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .testimonio p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .testimonio span {
+    font-size: 12px;
+  }
+  .footer-container,
+  .footer-container2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+  }
+  .logo img {
+    height: 50px;
+  }
+  footer {
+    padding: 10px 5px;
+  }
+}

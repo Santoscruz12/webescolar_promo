@@ -1,0 +1,274 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Red Hat Display", sans-serif;
+        }
+
+
+          html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+               display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;  /* Centrado vertical */
+  
+    
+    
+        }
+
+        /* Contenedor principal (envuelve todo excepto el footer) */
+        .main-content {
+            flex: 1; /* Ocupa el espacio restante */
+            width: 100%;
+        }
+
+      
+        .contenedores
+        {
+            
+            display: flex;
+
+
+            justify-content:center;
+            align-items: center;
+            
+            
+            width: 100%;
+            height: 100%;
+            
+        }
+        .conte_text
+        {
+            
+            
+            margin-left: 70px;
+            width: 45%;
+            
+        }
+        .conte_ima
+        {
+            
+            width: 50%;
+            text-align: right;
+
+            
+        }
+        .conte_ima_ini
+        {
+              height: 500px;       /* Ancho deseado */
+    width:  auto;  
+            
+         
+
+        }
+        .conte_titulo
+        {
+            font-size: 25px;
+        }
+        .conte_artificial
+        {
+            margin-top: 5px;
+            font-size: 46px;
+            color: #253c81;
+            font-weight: bold;
+        }
+     .contenedores_escolar {
+  width: 100%;
+text-align: justify;
+  padding: 10px;
+}
+
+.conte_escolar {
+  font-size: 22px;
+   word-spacing: 50px; 
+}
+.conte_escolar_2
+{
+    font-size: 22px;
+   word-spacing: 24px; 
+
+}
+
+
+.conte_escolar_3
+{
+    font-size: 22px;
+   word-spacing: 27px; 
+
+}.resaltado {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #2230b2;
+}
+        .conte_inte
+        {
+         
+               margin-top: 5px;
+            font-size: 22px;
+            color:#2230b2;
+             text-decoration: underline;
+  text-decoration-thickness: 2px; /* Grosor */
+  text-decoration-color: #2230b2; 
+
+        }
+        .conte_auto
+        {
+               
+            font-size: 22px;
+            text-align: center;
+        }
+         .conte_auto2
+        {
+                  margin-top: 5px;
+            font-size: 22px;
+            text-align: center;
+        }
+       
+        .conte_contenido
+        {
+            text-align: center;
+          
+        }
+        .conte_button
+        {
+               margin-top: 15px;
+            font-size: 18px;
+            border-radius: 15px;
+            padding: 9px 19px;
+            color: white;
+              background: #41342c;
+                border: none;          /* ❌ Elimina borde negro */
+  outline: none;         /* ❌ Elimina contorno en foco */
+  box-shadow: none;      /* ❌ Elimina cualquier sombra */
+        }
+        .footer
+        {
+            
+            width: 100%;
+            height: 50px;
+             margin-top: auto;
+             background: #e2e4e2; 
+        }
+
+        
+@media (max-width: 768px) {
+  
+    body {
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+    .menu-toggle {
+        display: block;
+    }
+
+    .contenedor {
+        display: block;
+        align-items: flex-start;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background-color: #cacaca;
+        width: 100%;
+        padding: 10px 0;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        z-index: 1000;
+        transition: all 0.3s ease;
+    }
+
+    .nav-list.show {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 8px 0;
+        
+    }
+
+    .nav-list li a {
+         min-width: 160px; /* Ancho mínimo uniforme */
+   
+    
+    
+    
+    
+    
+    
+    }
+
+    .logo_ini,
+    .logo_no {
+        height: 22px;
+        max-width: 28px;
+        margin-right: 0;
+    }
+
+    .boton {
+       display: inline-block;
+    width: 22%;
+    text-align: center;
+    font-size: 7px;
+    color: #333;
+    }
+       .contenedores {
+        flex-direction: column;
+        padding: 0 15px; /* agrega padding horizontal para evitar bordes pegados */
+    }
+
+      
+  
+        .conte_text {
+        margin-left: 0;       /* Elimina margen que empuja contenido */
+        padding: 0 10px;      /* Añade algo de espacio interno */
+    
+        
+      }
+       .conte_text{
+    
+        width: 100% !important; /* Ocupan todo el ancho en móviles */
+    }
+    .conte_ima {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+     .conte_artificial {
+        font-size: 32px; /* Reduce tamaño en pantallas pequeñas */
+    }
+     .conte_titulo {
+        font-size: 20px;
+    }
+   .conte_escolar,
+    .conte_inte,
+    .conte_auto,
+    .conte_auto2 {
+        font-size: 14px;
+    }
+     .conte_button {
+        width: 80%;
+        font-size: 14px;
+    }
+
+      .conte_ima_ini {
+        height: auto;
+        width: 250px;
+        margin-top: 20px;
+      }
+}

@@ -1,0 +1,247 @@
+ 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Red Hat Display", sans-serif;
+        }
+
+
+html, body {
+    height: 100%;
+}
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            width: 100%;
+            height: 100%;
+            
+        }
+
+        .header {
+            width: 100%;
+            height: 80px;
+            background-image: url('/innova/webescolar_promo/assets/image/Fondo_banner_superior.png');
+            background-color: #333;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            position: relative;
+         /*     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);   */
+        }
+
+        .webescolar {
+            height: 40px;
+            width: auto;
+        }
+
+        .contenedor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav ul {
+            font-size: 12px;
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+            position: relative;
+        }
+
+        nav ul li a {
+
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 8px;
+            display: flex;
+            align-items: center;
+            padding: 10px 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #f1c40f;
+            transform: translateY(-2px);
+            
+        }
+
+       .logo_ini {
+     height: 40px;  /* Alto deseado */
+    width: auto;   /* Ancho proporcional */
+    /* Opcional: añade un máximo para evitar que sea demasiado grande */
+    max-width: 120px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  opacity: 0.9; /* Más nítida pero aún con leve transparencia */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  margin-right: 4px;
+}
+.logo_ini:hover {
+  opacity: 1;
+  transform: scale(1.1); /* Pequeño efecto hover */
+}
+          .logo_no {
+          height: 40px;  /* Alto deseado */
+    width: auto;   /* Ancho proporcional */
+    /* Opcional: añade un máximo para evitar que sea demasiado grande */
+    max-width: 120px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  opacity: 0.9; /* Más nítida pero aún con leve transparencia */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  margin-right: 4px;
+        }
+        .logo_ini:hover {
+  opacity: 1;
+  transform: scale(1.1); /* Pequeño efecto hover */
+}
+
+        /* Estilos para hacerlo responsive */
+        @media (max-width: 1024px) {
+            nav ul li {
+                margin-left: 15px;
+            }
+            
+            nav ul li a {
+                font-size: 13px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                height: auto;
+                padding: 15px;
+            }
+            
+            .webescolar {
+                margin-bottom: 15px;
+            }
+            
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 5px 10px;
+            }
+        }
+        .boton
+        {
+            border: 1px solid #f5f5f5;
+            background-color: #f5f5f5;
+            color: #333;
+            padding: 8px 16px;
+            border-radius:10px;
+        }
+
+        .linea {
+            margin: 0 auto;
+        }
+
+        .contenido {
+             
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    text-align: center;
+
+    padding: 30px 0; 
+        }
+
+        .contenido_titu {
+            margin-top: 12px;
+            font-size: 31.7px;
+            color: #2230b2;
+            text-align: center;
+        }
+
+        .contenido_flex {
+
+            display: flex;
+            text-align: justify;
+
+
+            justify-content: space-between;
+            justify-content: center;
+
+        }
+
+        .contenido_flex_imagen {
+
+            margin-top: 0;
+            width: 50%;
+            
+            text-align: center;
+            justify-content: end;
+            justify-items: center;
+        }
+
+        .contenido_flex_imagen_tamaño {
+            margin-bottom: 12;
+            border: 1px solid red;
+            height: 300px;
+            width: auto;
+            border: none;
+            /* Método clásico */
+            border: 0;
+            /* Alternativa */
+            outline: none;
+        }
+
+        .contenido_flex_info {
+            width: 50%;
+            
+            margin-left: 100px;
+            text-align: left;
+            
+        }
+
+        .contenido_flex_info_titulo {
+            margin-top: 45px;
+
+            font-size: 22.1px;
+        }
+
+        .contenido_flex_info_texto {
+            font-size: 16px;
+        }
+
+        .contenido_flex_info_ul {
+            margin-top: 30px;
+            margin-left: 30px;
+            display: flex;
+            gap: 40px;
+        }
+
+        .contenido_flex_info_feature {
+            list-style: none;
+            justify-content: space-between;
+
+        }
+
+        .contenido_flex_imagen_app {
+            
+            display: flex;
+    
+    width: 100%;
+   
+    justify-content: space-between;
+     /* Para que se acomoden en varias filas si es necesario */
+    
+        }
+
+        .contenido_flex_imagen_email {
+              max-height: 150px; /* Puedes ajustar este tamaño */
+    max-width: 150px;  
+     transform: scale(1);
+        }
