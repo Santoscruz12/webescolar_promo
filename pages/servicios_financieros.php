@@ -19,7 +19,7 @@
 
             <ul style="margin-top: 20px;">
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Facturación Electrónica recuentes :</strong>
                         Emite comprobantes fiscales de
@@ -28,7 +28,7 @@
                 </li>
 
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Cobranza Flexible adaptable : </strong>
 
@@ -38,7 +38,7 @@
 
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Pagos en Línea Disponibles 24/7: </strong>
 
@@ -47,7 +47,7 @@
                     </div>
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Conciliación Bancaria: </strong>
                         Registra y concilia pagos de forma instantánea sin
@@ -55,7 +55,7 @@
                     </div>
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Reportes Financieros: </strong>
                         Accede a balances, adeudos, descuentos aplicados
@@ -65,7 +65,7 @@
 
             </ul>
             <div class="boton_ap">
-                <a href="/webescolar_promo/index.php?p=contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
+                <a href="#contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
 
             </div>
 

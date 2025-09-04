@@ -28,7 +28,7 @@
              <br> <br> <br> <br>
              <p class="conte_autoi">Agenda una demo y accede a 10 horas de </p>
              <p class="conte_auto2i">consultoría gratuita. </p>
-             <a href="/webescolar_promo/index.php?p=contactanos"><button class="conte_buttoni">AGENDAR DEMO</button></a>
+             <a href="#contactanos"><button class="conte_buttoni">AGENDAR DEMO</button></a>
 
          </div>
 
@@ -36,7 +36,7 @@
      </div>
 
      <div class="conte_imai iti2">
-         <img class="conte_ima_inii" src="assets/image/Inicio.png" alt="inicio">
+         <img class="conte_ima_inii" src="./assets/image/Inicio.png" alt="inicio">
 
      </div>
 

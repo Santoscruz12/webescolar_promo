@@ -18,7 +18,7 @@
 
             <ul>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Pagos en línea y en establecimientos físicos</strong>
                         <br>
@@ -41,7 +41,7 @@
                 </li>
                 <br>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong> Portal escolar conectado con Brightspace</strong>
                         <br>
@@ -104,7 +104,7 @@
             </div>
 
             <div class="boton_ap">
-                <a href="/webescolar_promo/index.php?p=contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
+                <a href="#contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
 
             </div>
 

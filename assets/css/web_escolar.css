@@ -679,7 +679,7 @@ margin-top: 10px;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-  background-image: url('/webescolar_promo/assets/image/Alumnos y Padres.png');
+  background-image: url('../image/Alumnos y Padres.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -1145,7 +1145,7 @@ margin-top: 10px;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-  background-image: url('/webescolar_promo/assets/image/Integraciones.png');
+  background-image: url('../image/Integraciones.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -1623,7 +1623,7 @@ margin-top: 10px;
 /*servicios integrado  */
 
 .bodysi {
-  background-image: url('/webescolar_promo/assets/image/Servicios_integrados.png');
+  background-image: url('../image/Servicios_integrados.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -1970,7 +1970,7 @@ margin-top: 10px;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-  background-image: url('/webescolar_promo/assets/image/Servicios_escolares.png');
+  background-image: url('../image/Servicios_escolares.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -1989,7 +1989,7 @@ margin-top: 10px;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-  background-image: url('/webescolar_promo/assets/image/Servicios_academicos.png');
+  background-image: url('../image/Servicios_academicos.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -2002,7 +2002,7 @@ margin-top: 10px;
 
 /* vinculo 360 */
 .body360 {
-  background-image: url('/webescolar_promo/assets/image/Vinculo_360.png');
+  background-image: url('../image/Vinculo_360.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -2026,7 +2026,7 @@ margin-top: 10px;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-  background-image: url('/webescolar_promo/assets/image/Servicios_financieros.png');
+  background-image: url('../image/Servicios_financieros.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -2191,7 +2191,7 @@ margin-top: 10px;
 
 .chatbot-boxco {
   display: none;
-  background-image: url('/webescolar_promo/assets/image/Recuadro_azul.png');
+  background-image: url('../image/Recuadro_azul.png');
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -2424,7 +2424,7 @@ margin-top: 10px;
 }
 
 .footercm {
-  background-image: url('/webescolar_promo/assets/image/Fondo_banner_parte_de_abajo.png');
+  background-image: url('../image/Fondo_banner_parte_de_abajo.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2861,7 +2861,7 @@ margin-top: 10px;
 
 /* FOOTER */
 footer {
-  background-image: url('/webescolar_promo/assets/image/Fondo_banner_parte_de_abajo.png');
+  background-image: url('../image/Fondo_banner_parte_de_abajo.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3063,4 +3063,254 @@ footer i {
   justify-items: center;
   align-items: center;
   text-align: center;
+}
+
+/* ===== RESPONSIVE DESIGN SYSTEM IMPROVEMENTS ===== */
+
+/* Extra Small devices (phones, 320px and up) */
+@media (max-width: 480px) {
+  html, body {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  /* Mejoras para sección inicio */
+  .contenedoresi {
+    padding: 20px 15px;
+    text-align: center;
+  }
+  
+  .conte_texti {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  
+  .conte_imai {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .conte_ima_inii {
+    height: auto;
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  .conte_tituloi {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  
+  .conte_artificiali {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
+  
+  .conte_escolari,
+  .conte_escolar_2i,
+  .conte_escolar_3i {
+    font-size: 14px;
+    word-spacing: normal;
+    line-height: 1.4;
+  }
+  
+  .conte_buttoni {
+    width: 100%;
+    max-width: 280px;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-top: 20px;
+  }
+  
+  /* Mejoras para carruseles */
+  .conten_imagenes_fotosi,
+  .conten_imagenes_fotops,
+  .conten_imagenes_fotoap {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  /* Mejoras para botones táctiles */
+  .conte_buttonap,
+  .conte_buttoni,
+  .conte_button {
+    min-height: 44px;
+    min-width: 44px;
+    touch-action: manipulation;
+  }
+  
+  /* Mejoras para iconos */
+  .contenido_iconoap,
+  .contenido_iconot {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Mejoras para texto */
+  .contenido_textoap,
+  .contenido_textot {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+/* Small devices (landscape phones, 481px and up) */
+@media (min-width: 481px) and (max-width: 768px) {
+  html, body {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  
+  .contenedoresi {
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .conte_texti {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  
+  .conte_imai {
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .conte_ima_inii {
+    height: auto;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .conte_tituloi {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  
+  .conte_artificiali {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
+  
+  .conte_escolari,
+  .conte_escolar_2i,
+  .conte_escolar_3i {
+    font-size: 16px;
+    word-spacing: normal;
+    line-height: 1.4;
+  }
+  
+  .conte_buttoni {
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-top: 20px;
+  }
+  
+  /* Mejoras para carruseles */
+  .conten_imagenes_fotosi,
+  .conten_imagenes_fotops,
+  .conten_imagenes_fotoap {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+}
+
+/* Medium devices (tablets, 769px and up) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contenedoresi {
+    flex-direction: row;
+    padding: 40px 30px;
+  }
+  
+  .conte_texti {
+    width: 50%;
+    margin-left: 30px;
+  }
+  
+  .conte_imai {
+    width: 50%;
+  }
+  
+  .conte_ima_inii {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .conte_tituloi {
+    font-size: 22px;
+  }
+  
+  .conte_artificiali {
+    font-size: 36px;
+  }
+  
+  .conte_escolari,
+  .conte_escolar_2i,
+  .conte_escolar_3i {
+    font-size: 18px;
+  }
+}
+
+/* Mejoras generales para todos los dispositivos móviles */
+@media (max-width: 768px) {
+  /* Asegurar que no haya scroll horizontal */
+  * {
+    max-width: 100%;
+  }
+  
+  /* Mejoras para contenedores */
+  .contenedor_texto_clamp,
+  .contenedorco,
+  .contenido_principal,
+  .contenido_principalgc {
+    padding: 15px;
+    margin: 0 auto;
+  }
+  
+  /* Mejoras para imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Mejoras para botones */
+  button, .boton, .conte_button, .conte_buttoni, .conte_buttonap {
+    min-height: 44px;
+    min-width: 44px;
+    touch-action: manipulation;
+    font-size: 16px;
+  }
+  
+  /* Mejoras para enlaces */
+  a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Mejoras para formularios */
+  input, textarea, select {
+    min-height: 44px;
+    font-size: 16px;
+  }
+  
+  /* Mejoras para texto */
+  p, li, span {
+    line-height: 1.5;
+  }
+  
+  /* Mejoras para títulos */
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3;
+  }
 }

@@ -20,7 +20,7 @@
 
     </div>
     <div class="contenido_principal_text_imagc">
-      <img src="/webescolar_promo/assets/image/cuadrito.png" alt="">
+      <img src="./assets/image/cuadrito.png" alt="">
 
     </div>
 

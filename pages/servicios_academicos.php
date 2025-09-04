@@ -23,7 +23,7 @@
                     se adapta a tus necesidades institucionales
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Evaluación: </strong>
                         Crea reglas y políticas personalizadas para evaluar
@@ -32,7 +32,7 @@
                 </li>
 
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Acceso Controlado: </strong>
 
@@ -40,7 +40,7 @@
                     </div>
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Calificaciones Automatizadas: </strong>
 
@@ -50,7 +50,7 @@
                     </div>
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Gestión de Espacios: </strong>
                         Administra aulas, laboratorios y recursos según
@@ -58,7 +58,7 @@
                     </div>
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Control de Asistencia: </strong>
                         Aplica políticas claras y automatizadas para
@@ -121,7 +121,7 @@
 
             </div>
             <div class="boton_ap">
-                <a href="/webescolar_promo/index.php?p=contactanos"><button class="conte_buttonap"> <img src="/assets/image/" alt=""> AGENDAR DEMO</button></a>
+                <a href="#contactanos"><button class="conte_buttonap"> <img src="./assets/image/Agenda_demo.png" alt=""> AGENDAR DEMO</button></a>
 
             </div>
 

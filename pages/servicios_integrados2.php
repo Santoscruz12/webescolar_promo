@@ -17,7 +17,7 @@
 
             <ul>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>ZOOM Educación Híbrida</strong>
                         <br>
@@ -28,7 +28,7 @@
                 </li>
                 <br>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>CRM Consulta de Información</strong>
                         <br>
@@ -41,7 +41,7 @@
             </ul>
 
             <div class="boton_ap">
-                <a href="/webescolar_promo/index.php?p=contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
+                <a href="#contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
 
             </div>
 

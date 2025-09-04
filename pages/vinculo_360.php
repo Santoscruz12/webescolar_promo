@@ -18,7 +18,7 @@
 
             <ul style="margin-top: 20px;">
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Registro de Prospectos en CRM Educativo: </strong>
                         <br>
@@ -29,7 +29,7 @@
                 <br>
 
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Conversión Aspirante → Alumno: </strong>
 
@@ -41,7 +41,7 @@
                 </li>
                 <br>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Captación Multicanal por Redes Sociales: </strong>
 
@@ -53,7 +53,7 @@
                 </li>
                 <br>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Seguimiento Automatizado y Personalizado: </strong>
                         <br>
@@ -120,7 +120,7 @@
 
             </div>
               <div class="boton_ap">
-                <a href="/webescolar_promo/index.php?p=contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
+                <a href="#contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
 
             </div>
 

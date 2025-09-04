@@ -10,7 +10,7 @@
 
     </div>
     <div class="imagencm">
-      <img src="/webescolar_promo/assets/image/Computadora_con_imagen.png" alt="Estudiante en biblioteca">
+      <img src="./assets/image/Computadora_con_imagen.png" alt="Estudiante en biblioteca">
     </div>
   </section>
 

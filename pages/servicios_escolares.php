@@ -16,7 +16,7 @@
 
             <ul>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Información Centralizada en Tiempo Real: </strong>
                         <br>
@@ -27,7 +27,7 @@
                 </li>
 
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Administración Completa:</strong>
                         Gestiona fácilmente calificaciones, becas, horarios,
@@ -37,7 +37,7 @@
 
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Gestión Integral de Instituciones y Modelos Educativos:</strong>
 
@@ -102,7 +102,7 @@
 
             
             <div class="boton_ap">
-                <a href="/webescolar_promo/index.php?p=contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
+                <a href="#contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
 
             </div>
 

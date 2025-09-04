@@ -15,7 +15,7 @@
       <ul class="lista-solucionesps">
         <li class="item-solucionps">
           <img class="contenido_texto_imaps" src="./assets/image/ecofile-removebg-preview.png" alt="ecofile">
-          <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="icono viñeta">
+          <img class="contenido_iconoap" src="./assets/image/138.png" alt="icono viñeta">
           <div class="bloque-texto-viñeta">
             <div class="linea-icono-texto">
 
@@ -29,7 +29,7 @@
 
         <li class="item-solucionps">
           <img class="contenido_texto_imaps2" src="./assets/image/AXS_Control-removebg-preview.png" alt="axs">
-          <img class="contenido_iconoap" src="/webescolar_promo/assets/image/138.png" alt="icono viñeta">
+          <img class="contenido_iconoap" src="./assets/image/138.png" alt="icono viñeta">
           <div class="bloque-texto-viñeta">
             <div class="linea-icono-texto">
 
@@ -42,7 +42,7 @@
         </li>
       </ul>
       <div class="boton_ap item1p">
-        <a href="/webescolar_promo/index.php?p=contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
+        <a href="#contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
 
       </div>
     </div>
