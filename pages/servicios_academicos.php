@@ -23,7 +23,7 @@
                     se adapta a tus necesidades institucionales
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Evaluación: </strong>
                         Crea reglas y políticas personalizadas para evaluar
@@ -32,7 +32,7 @@
                 </li>
 
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Acceso Controlado: </strong>
 
@@ -40,7 +40,7 @@
                     </div>
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Calificaciones Automatizadas: </strong>
 
@@ -50,7 +50,7 @@
                     </div>
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Gestión de Espacios: </strong>
                         Administra aulas, laboratorios y recursos según
@@ -58,7 +58,7 @@
                     </div>
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Control de Asistencia: </strong>
                         Aplica políticas claras y automatizadas para
@@ -76,16 +76,16 @@
             <div class="conten_imagenessi">
 
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="./assets/image/servisios academicos_carrusel.png" alt="Servicios escolares">
+                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/servisios academicos_carrusel.png" alt="Servicios escolares">
                     <div class="texto-imagensi">MARKETING</div>
                 </div>
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="./assets/image/servicios financieros_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/servicios financieros_carrusel.png"
                         alt="Portal de solucionessi">
                     <div class="texto-imagensi">SERVICIOS FINANCIEROS</div>
                 </div>
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="./assets/image/Padres ya alumnos_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/Padres ya alumnos_carrusel.png"
                         alt="Portal de solucionessi">
                     <div class="texto-imagensi">PADRES Y ALUMNOS</div>
                 </div>
@@ -100,12 +100,12 @@
             <div class="conten_iconossi">
 
                 <a href="#" onclick="navegarCarrusel(-1)">
-                    <img class="conten_iconos_icosi" src="./assets/image/flecha_izquierda.png" alt="Iconos">
+                    <img class="conten_iconos_icosi" src="/innova/hola/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
 
                 </a>
 
                 <a href="#" onclick="navegarCarrusel(1)">
-                    <img class="conten_iconos_icosi" src="./assets/image/flecha_derecha.png" alt="Iconos">
+                    <img class="conten_iconos_icosi" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
 
                 </a>
 
@@ -121,7 +121,7 @@
 
             </div>
             <div class="boton_ap">
-                <a href="#contactanos"><button class="conte_buttonap"> <img src="./assets/image/Agenda_demo.png" alt=""> AGENDAR DEMO</button></a>
+                <a href="#contactanos"><button class="conte_buttonap">AGENDAR DEMO</button></a>
 
             </div>
 

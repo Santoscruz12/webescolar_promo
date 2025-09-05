@@ -11,17 +11,17 @@
 
     
       <div class="blog_barra1">
-        <img src="./assets/image/Servicios_escolares.png" alt="Deserción estudiantil">
+        <img src="/innova/hola/webescolar_promo/assets/image/Servicios_escolares.png" alt="Deserción estudiantil">
         <div class="card-text">Cómo las Universidades Pueden Reducir la Deserción
           Estudiantil con Tecnología de Gestión Escolar.</div>
       </div>
       <div class="blog_barra1">
-        <img src="./assets/image/Servicios_escolares.png" alt="Deserción estudiantil">
+        <img src="/innova/hola/webescolar_promo/assets/image/Servicios_escolares.png" alt="Deserción estudiantil">
          <div class="card-text">Soluciones Digitales para Combatir la Deserción Escolar
           en Universidades</div>
       </div>
        <div class="blog_barra1">
-        <img src="./assets/image/Servicios_escolares.png" alt="Deserción estudiantil">
+        <img src="/innova/hola/webescolar_promo/assets/image/Servicios_escolares.png" alt="Deserción estudiantil">
          <div class="card-text">Herramientas Digitales que Ayudan a Prevenir la</div>
       </div>
     
@@ -32,7 +32,7 @@
 
       <div class="blog-contentbg">
         <div class="blog-imagebg">
-          <img  src="./assets/image/Imagen_blog.png" alt="Deserción estudiantil">
+          <img  src="/innova/hola/webescolar_promo/assets/image/Imagen_blog.png" alt="Deserción estudiantil">
         </div>
         <div class="blog-textbg">
           <p><strong>El problema de la deserción estudiantil y su impacto financiero y reputacional en las universidades.</strong></p>

@@ -41,7 +41,7 @@ body {
 .header {
     width: 100%;
     height: 80px;
-    background-image: url('../image/Fondo_banner_superior.png');
+    background-image: url('/innova/hola/webescolar_promo/assets/image/Fondo_banner_superior.png');
     background-color: var(--dark-bg);
     background-size: cover;
     background-position: center;

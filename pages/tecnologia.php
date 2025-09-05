@@ -11,17 +11,17 @@
         <div class="contenido_flext">
 
             <div class="contenido_flex_imagent">
-                <img class="contenido_flex_imagen_tamañot" src="./assets/image/Administra_con_solo_un_clic.png"
+                <img class="contenido_flex_imagen_tamañot" src="/innova/hola/webescolar_promo/assets/image/Administra_con_solo_un_clic.png"
                     alt="Click">
 
                 <div class="contenido_flex_imagen_appt">
 
-                    <img class="contenido_flex_imagen_emailt" src="./assets/image/Email.png" alt="Email">
-                    <img class="contenido_flex_imagen_emailt" src="./assets/image/11.png" alt="Email">
-                    <img class="contenido_flex_imagen_emailt" src="./assets/image/Mensajes.png" alt="Email">
+                    <img class="contenido_flex_imagen_emailt" src="/innova/hola/webescolar_promo/assets/image/Email.png" alt="Email">
+                    <img class="contenido_flex_imagen_emailt" src="/innova/hola/webescolar_promo/assets/image/11.png" alt="Email">
+                    <img class="contenido_flex_imagen_emailt" src="/innova/hola/webescolar_promo/assets/image/Mensajes.png" alt="Email">
 
-                    <img class="contenido_flex_imagen_emailt" src="./assets/image/WhatsApp.png" alt="Email">
-                    <img class="contenido_flex_imagen_emailt" src="./assets/image/Instagram.png" alt="Email">
+                    <img class="contenido_flex_imagen_emailt" src="/innova/hola/webescolar_promo/assets/image/WhatsApp.png" alt="Email">
+                    <img class="contenido_flex_imagen_emailt" src="/innova/hola/webescolar_promo/assets/image/Instagram.png" alt="Email">
 
                 </div>
 
@@ -39,15 +39,15 @@
                 <div class="contenido_flex_info_ult">
                     <ul class="contenido_flex_info_featuret">
                         
-                        <li class="negritat"> <img class="contenido_iconot" src="./assets/image/137.png" alt="logo">  Calificación</li>
-                        <li class="negritat"> <img class="contenido_iconot" src="./assets/image/137.png" alt="logo"> Tareas</li>
-                        <li class="negritat"> <img class="contenido_iconot" src="./assets/image/137.png" alt="logo"> Pagos de colegiatura</li>
+                        <li class="negritat"> <img class="contenido_iconot" src="/innova/hola/webescolar_promo/assets/image/137.png" alt="logo">  Calificación</li>
+                        <li class="negritat"> <img class="contenido_iconot" src="/innova/hola/webescolar_promo/assets/image/137.png" alt="logo"> Tareas</li>
+                        <li class="negritat"> <img class="contenido_iconot" src="/innova/hola/webescolar_promo/assets/image/137.png" alt="logo"> Pagos de colegiatura</li>
                     </ul>
 
                     <ul class="contenido_flex_info_featuret">
-                        <li class="negritat"> <img class="contenido_iconot" src="./assets/image/137.png" alt="logo"> Documentos</li>
-                        <li class="negritat"> <img class="contenido_iconot" src="./assets/image/137.png" alt="logo"> Notificaciones</li>
-                        <li class="negritat"> <img class="contenido_iconot" src="./assets/image/137.png" alt="logo"> Mensajes</li>
+                        <li class="negritat"> <img class="contenido_iconot" src="/innova/hola/webescolar_promo/assets/image/137.png" alt="logo"> Documentos</li>
+                        <li class="negritat"> <img class="contenido_iconot" src="/innova/hola/webescolar_promo/assets/image/137.png" alt="logo"> Notificaciones</li>
+                        <li class="negritat"> <img class="contenido_iconot" src="/innova/hola/webescolar_promo/assets/image/137.png" alt="logo"> Mensajes</li>
                     </ul>
 
 

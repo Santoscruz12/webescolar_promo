@@ -17,7 +17,7 @@
 
             <ul>
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>ZOOM Educación Híbrida</strong>
                         <br>
@@ -28,7 +28,7 @@
                 </li>
                 <br>
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>CRM Consulta de Información</strong>
                         <br>
@@ -58,17 +58,17 @@
             <div class="conten_imagenessi">
 
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="./assets/image/Servicios Escolares_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/Servicios Escolares_carrusel.png"
                         alt="Servicios integrados">
                     <div class="texto-imagensi">SERVICIOS ESCOLARES</div>
                 </div>
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="./assets/image/marketing_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/marketing_carrusel.png"
                         alt="Servicios escolares">
                     <div class="texto-imagensi">SERVICIOS ACADEMÉMICOS</div>
                 </div>
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="./assets/image/servisios academicos_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/servisios academicos_carrusel.png"
                         alt="Portal de soluciones">
                     <div class="texto-imagensi">MARKETING</div>
                 </div>
@@ -81,12 +81,12 @@
             <div class="conten_iconossi">
 
                 <a href="#" onclick="navegarCarrusel(-1)">
-                    <img class="conten_iconos_icosi" src="./assets/image/flecha_izquierda.png" alt="Iconos">
+                    <img class="conten_iconos_icosi" src="/innova/hola/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
 
                 </a>
 
                 <a href="#" onclick="navegarCarrusel(1)">
-                    <img class="conten_iconos_icosi" src="./assets/image/flecha_derecha.png" alt="Iconos">
+                    <img class="conten_iconos_icosi" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
 
                 </a>
 

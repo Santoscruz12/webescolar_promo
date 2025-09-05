@@ -36,7 +36,7 @@
      </div>
 
      <div class="conte_imai iti2">
-         <img class="conte_ima_inii" src="./assets/image/Inicio.png" alt="inicio">
+         <img class="conte_ima_inii" src="/innova/hola/webescolar_promo/assets/image/Inicio.png" alt="inicio">
 
      </div>
 

@@ -39,7 +39,7 @@
                     <input type="text" id="empresa" class="line-inputco">
                 </div>
             </div>
-               <img class="contenedor_chatco" id="chatbotBtn" src="./assets/image/Chat.png" alt="Chat">
+               <img class="contenedor_chatco" id="chatbotBtn" src="/innova/hola/webescolar_promo/assets/image/Chat.png" alt="Chat">
 
             <button type="submit" class="submit-btnco">ENVIA TU INFORMACIÓN</button>
         </div>

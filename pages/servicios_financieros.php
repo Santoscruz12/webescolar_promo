@@ -19,7 +19,7 @@
 
             <ul style="margin-top: 20px;">
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Facturación Electrónica recuentes :</strong>
                         Emite comprobantes fiscales de
@@ -28,7 +28,7 @@
                 </li>
 
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Cobranza Flexible adaptable : </strong>
 
@@ -38,7 +38,7 @@
 
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Pagos en Línea Disponibles 24/7: </strong>
 
@@ -47,7 +47,7 @@
                     </div>
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Conciliación Bancaria: </strong>
                         Registra y concilia pagos de forma instantánea sin
@@ -55,7 +55,7 @@
                     </div>
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="./assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Reportes Financieros: </strong>
                         Accede a balances, adeudos, descuentos aplicados
@@ -75,16 +75,16 @@
             <div class="conten_imagenessi">
 
              <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="./assets/image/Padres ya alumnos_carrusel.png" alt="Servicios escolares">
+                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/Padres ya alumnos_carrusel.png" alt="Servicios escolares">
                     <div class="texto-imagensi">PADRES Y ALUMNOS</div>
                 </div>
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="./assets/image/Portal_Soluciones_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/Portal_Soluciones_carrusel.png"
                         alt="Portal de solucionessi">
                     <div class="texto-imagensi">PORTAL DE SOLUCIONES</div>
                 </div>
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="./assets/image/Servicios Integrados_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/Servicios Integrados_carrusel.png"
                         alt="Portal de solucionessi">
                     <div class="texto-imagensi">SERVICIOS INTEGRADOS</div>
                 </div>
@@ -101,12 +101,12 @@
             <div class="conten_iconossi">
 
                 <a href="#" onclick="navegarCarrusel(-1)">
-                    <img class="conten_iconos_icosi" src="./assets/image/flecha_izquierda.png" alt="Iconos">
+                    <img class="conten_iconos_icosi" src="/innova/hola/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
 
                 </a>
 
                 <a href="#" onclick="navegarCarrusel(1)">
-                    <img class="conten_iconos_icosi" src="./assets/image/flecha_derecha.png" alt="Iconos">
+                    <img class="conten_iconos_icosi" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
 
                 </a>
 
