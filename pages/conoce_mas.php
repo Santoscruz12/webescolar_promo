@@ -16,8 +16,8 @@
     
 
     <div class="contenido_adelantarcmv">
-          <img class="contenido_iconocmv" src="/innova/hola/webescolar_promo/assets/image/Flecha_video_1.png" alt="fondo azul">
-           <img class="contenido_iconocmv" src="/innova/hola/webescolar_promo/assets/image/Flecha_video_2.png" alt="fondo azul">
+          <img class="contenido_iconocmv" src="/innova/webescolar_promo/assets/image/Flecha_video_1.png" alt="fondo azul">
+           <img class="contenido_iconocmv" src="/innova/webescolar_promo/assets/image/Flecha_video_2.png" alt="fondo azul">
 
     </div>
  

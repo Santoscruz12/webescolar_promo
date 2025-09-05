@@ -15,7 +15,7 @@
 
       <div class="blog-contentbg">
         <div class="blog-imagebg">
-          <img  src="/innova/hola/webescolar_promo/assets/image/Imagen_blog.png" alt="Deserción estudiantil">
+          <img  src="/innova/webescolar_promo/assets/image/Imagen_blog.png" alt="Deserción estudiantil">
         </div>
         <div class="blog-textbg">
           <p><strong>El problema de la deserción estudiantil y su impacto financiero y reputacional en las universidades.</strong></p>
