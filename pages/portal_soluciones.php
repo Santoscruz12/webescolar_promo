@@ -84,7 +84,7 @@
 
         <hr class="conten_iconos_hrps">
 
-        <p class="conten_iconos_numps">02</p>
+        <p class="conten_iconos_numps" id="conten_iconos_numps">02</p>
 
 
 

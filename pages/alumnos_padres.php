@@ -88,20 +88,17 @@
 
             <div class="conten_iconosap">
 
-
-                <img class="conten_iconos_icoap" src="/innova/hola/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
-
-
+                <a href="#" onclick="navegarCarrusel(-1)">
+                    <img class="conten_iconos_icoap" src="/innova/hola/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
+                </a>
 
                 <a href="#" onclick="navegarCarrusel(1)">
                     <img class="conten_iconos_icoap" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
-
                 </a>
-
 
                 <hr class="conten_iconos_hrap">
 
-                <p class="conten_iconos_numap">01</p>
+                <p class="conten_iconos_numap" id="contador-carrusel">01</p>
 
 
 
