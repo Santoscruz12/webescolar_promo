@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function actualizarContador(index) {
-    actualizarTodosLosContadores(index);
+    window.actualizarTodosLosContadores(index);
   }
 
   function iniciarCarruselAutomatico() {
@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!mousePresionado) { // ✅ Solo avanza si no está presionado
         console.log('Carrusel automático avanzando, mousePresionado:', mousePresionado);
         indice = (indice + 1) % secciones.length;
+        window.indice = indice; // Actualizar variable global
         mostrarSeccion(indice);
       } else {
         console.log('Carrusel automático pausado por mousePresionado:', mousePresionado);
@@ -45,6 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Hacer función global
   window.iniciarCarruselAutomatico = iniciarCarruselAutomatico;
+  
+  // Hacer variable global
+  window.indice = indice;
 
   function detenerCarrusel() {
     mousePresionado = true; // ✅ Marca que se presionó el mouse
@@ -63,6 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const index = Array.from(secciones).findIndex(s => s.id === "alumnos_padres");
         if (index !== -1) {
           indice = index;
+          window.indice = indice; // Actualizar variable global
           mostrarSeccion(indice);
           iniciarCarruselAutomatico();
           yaActivadoPorScroll = true;
@@ -86,25 +91,40 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Función global para navegación manual del carrusel
-function navegarCarrusel(direccion) {
+window.navegarCarrusel = function(direccion) {
   console.log('navegarCarrusel llamada con direccion:', direccion);
   
+  // Obtener secciones actuales
+  const seccionesActuales = document.querySelectorAll('.seccion-carrusel');
+  console.log('Secciones encontradas:', seccionesActuales.length);
+  
+  if (seccionesActuales.length === 0) return;
+  
   // PAUSAR INMEDIATAMENTE el carrusel automático
-  if (intervaloCarrusel) {
-    clearInterval(intervaloCarrusel);
-    intervaloCarrusel = null;
+  if (window.intervaloCarrusel) {
+    clearInterval(window.intervaloCarrusel);
+    window.intervaloCarrusel = null;
     console.log('Carrusel automático pausado INMEDIATAMENTE');
   }
   
   // Marcar que se está navegando manualmente
-  mousePresionado = true;
+  window.mousePresionado = true;
   
-  console.log('Secciones encontradas:', secciones.length);
-  if (secciones.length === 0) return;
+  // Encontrar la sección activa actual
+  let indiceActual = 0;
+  seccionesActuales.forEach((sec, index) => {
+    if (sec.classList.contains('activa') || sec.style.display === 'block' || sec.style.display !== 'none') {
+      indiceActual = index;
+    }
+  });
   
-  // Usar la variable global del índice actual
-  let indiceActual = indice;
-  console.log('Índice actual:', indiceActual);
+  // Si no encuentra ninguna activa, usar la variable global
+  if (indiceActual === 0 && seccionesActuales[0].style.display === 'none') {
+    indiceActual = window.indice || 0;
+  }
+  
+  console.log('Índice actual detectado:', indiceActual);
+  console.log('Variable global indice:', window.indice);
   
   // Calcular nuevo índice
   let nuevoIndice = indiceActual + direccion;
@@ -112,39 +132,37 @@ function navegarCarrusel(direccion) {
   
   // Manejar límites del carrusel
   if (nuevoIndice < 0) {
-    nuevoIndice = secciones.length - 1; // Ir al último
+    nuevoIndice = seccionesActuales.length - 1; // Ir al último
     console.log('Límite inferior alcanzado, yendo al último:', nuevoIndice);
-  } else if (nuevoIndice >= secciones.length) {
+  } else if (nuevoIndice >= seccionesActuales.length) {
     nuevoIndice = 0; // Ir al primero
     console.log('Límite superior alcanzado, yendo al primero:', nuevoIndice);
   }
   
   // Mostrar nueva sección
-  secciones.forEach(sec => {
+  seccionesActuales.forEach(sec => {
     sec.classList.remove('activa');
     sec.style.display = 'none';
   });
   
-  secciones[nuevoIndice].style.display = 'block';
-  secciones[nuevoIndice].classList.add('activa');
-  
-  // Actualizar variable global del índice
-  indice = nuevoIndice;
-  console.log('Índice actualizado a:', indice);
+  seccionesActuales[nuevoIndice].style.display = 'block';
+  seccionesActuales[nuevoIndice].classList.add('activa');
   
   // Actualizar todos los contadores posibles
-  actualizarTodosLosContadores(nuevoIndice);
+  window.actualizarTodosLosContadores(nuevoIndice);
   
   // Reiniciar el carrusel automático después de 15 segundos
   setTimeout(() => {
-    mousePresionado = false;
+    window.mousePresionado = false;
     console.log('Carrusel automático reanudado después de 15 segundos');
-    iniciarCarruselAutomatico();
+    if (window.iniciarCarruselAutomatico) {
+      window.iniciarCarruselAutomatico();
+    }
   }, 15000);
-}
+};
 
 // Función para actualizar todos los contadores
-function actualizarTodosLosContadores(indice) {
+window.actualizarTodosLosContadores = function(indice) {
   const numero = String(indice + 1).padStart(2, '0');
   
   // Lista de posibles IDs de contadores
@@ -165,4 +183,4 @@ function actualizarTodosLosContadores(indice) {
       contador.textContent = numero;
     }
   });
-}
+};

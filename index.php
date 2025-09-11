@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="stylesheet" href="./assets/css/header.css">
-
+<link rel="stylesheet" href="./assets/css/blog.css">
 <link rel="stylesheet" href="./assets/css/web_escolar.css">
 
 
@@ -25,6 +25,7 @@
 
 
   <?php include('./pages/header.php'); ?>
+
 
 
 

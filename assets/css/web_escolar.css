@@ -3334,3 +3334,6 @@ footer i {
     height: 80px;
   }
 }
+
+/* Botón flotante para crear nuevo post */
+.floating-blog-btn { display:none; }
