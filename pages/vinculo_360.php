@@ -110,7 +110,7 @@
 
                 <hr class="conten_iconos_hrsi">
 
-                <p class="conten_iconos_numsi">07</p>
+                <p class="conten_iconos_numsi" id="conten_iconos_numv">07</p>
 
 
 

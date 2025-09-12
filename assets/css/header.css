@@ -180,6 +180,14 @@
     background: rgba(0,0,0,0.5);
     z-index: 1999;
     transition: opacity 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.side-menu-overlay.open {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .side-menu {
@@ -300,9 +308,10 @@
     .main-nav { 
         display: none !important; 
     }
-    .side-menu, .side-menu-overlay { 
+    .side-menu { 
         display: block; 
     }
+    /* overlay solo visible cuando tiene .open */
 }
 
 @media (min-width: 769px) {
@@ -351,5 +360,44 @@
     
     .menu-toggle {
         font-size: 18px;
+    }
+}
+
+/* Estilos para el enlace de administración del blog */
+.admin-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #28a745, #20c997);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+}
+
+.admin-link:hover {
+    background: linear-gradient(135deg, #20c997, #28a745);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+}
+
+.admin-link i {
+    font-size: 14px;
+    color: white;
+}
+
+.admin-text {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .admin-link {
+        display: none;
     }
 }
