@@ -14,8 +14,8 @@
 
       <ul class="lista-solucionesps">
         <li class="item-solucionps">
-          <img class="contenido_texto_imaps" src="/innova/hola/webescolar_promo/assets/image/ecofile-removebg-preview.png" alt="ecofile">
-          <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="icono viñeta">
+          <img class="contenido_texto_imaps" src="/innova/webescolar_promo/assets/image/ecofile-removebg-preview.png" alt="ecofile">
+          <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="icono viñeta">
           <div class="bloque-texto-viñeta">
             <div class="linea-icono-texto">
 
@@ -28,8 +28,8 @@
         </li>
 
         <li class="item-solucionps">
-          <img class="contenido_texto_imaps2" src="/innova/hola/webescolar_promo/assets/image/AXS_Control-removebg-preview.png" alt="axs">
-          <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="icono viñeta">
+          <img class="contenido_texto_imaps2" src="/innova/webescolar_promo/assets/image/AXS_Control-removebg-preview.png" alt="axs">
+          <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="icono viñeta">
           <div class="bloque-texto-viñeta">
             <div class="linea-icono-texto">
 
@@ -51,19 +51,19 @@
     <div class="contenidosps item2p">
       <div class="conten_imagenesps">
         <div class="imagen-con-textops">
-          <img class="conten_imagenes_fotops" src="/innova/hola/webescolar_promo/assets/image/Servicios Integrados_carrusel.png"
+          <img class="conten_imagenes_fotops" src="/innova/webescolar_promo/assets/image/Servicios Integrados_carrusel.png"
             alt="Portal de solucionesps">
           <div class="texto-imagenps">PORTAL DE SOLUCIONES</div>
         </div>
 
         <div class="imagen-con-textops">
-          <img class="conten_imagenes_fotops" src="/innova/hola/webescolar_promo/assets/image/Servicios Escolares_carrusel.png"
+          <img class="conten_imagenes_fotops" src="/innova/webescolar_promo/assets/image/Servicios Escolares_carrusel.png"
             alt="Servicios integradosps">
           <div class="texto-imagenps">SERVICIOS ESCOLARES</div>
         </div>
 
         <div class="imagen-con-textops">
-          <img class="conten_imagenes_fotops" src="/innova/hola/webescolar_promo/assets/image/servisios academicos_carrusel.png"
+          <img class="conten_imagenes_fotops" src="/innova/webescolar_promo/assets/image/servisios academicos_carrusel.png"
             alt="Servicios escolaresps">
           <div class="texto-imagenps">SERVICIOS ACADÉMICOS</div>
         </div>
@@ -73,12 +73,12 @@
       <div class="conten_iconosps">
 
         <a href="#" onclick="navegarCarrusel(-1)">
-          <img class="conten_iconos_icops" src="/innova/hola/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
+          <img class="conten_iconos_icops" src="/innova/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
 
         </a>
 
         <a href="#" onclick="navegarCarrusel(1)">
-          <img class="conten_iconos_icops" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
+          <img class="conten_iconos_icops" src="/innova/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
 
         </a>
 

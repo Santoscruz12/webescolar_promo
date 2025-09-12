@@ -18,7 +18,7 @@
 
             <ul style="margin-top: 20px;">
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Registro de Prospectos en CRM Educativo: </strong>
                         <br>
@@ -29,7 +29,7 @@
                 <br>
 
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Conversión Aspirante → Alumno: </strong>
 
@@ -41,7 +41,7 @@
                 </li>
                 <br>
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Captación Multicanal por Redes Sociales: </strong>
 
@@ -53,7 +53,7 @@
                 </li>
                 <br>
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Seguimiento Automatizado y Personalizado: </strong>
                         <br>
@@ -72,17 +72,17 @@
             <div class="conten_imagenessi">
 
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/servicios financieros_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/webescolar_promo/assets/image/servicios financieros_carrusel.png"
                         alt="Portal de soluciones">
                     <div class="texto-imagensi">SERVICIOS FINANCIEROS</div>
                 </div>
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/Padres ya alumnos_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/webescolar_promo/assets/image/Padres ya alumnos_carrusel.png"
                         alt="Portal de soluciones">
                     <div class="texto-imagensi">PADRES Y ALUMNOS</div>
                 </div>
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/Portal_Soluciones_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/webescolar_promo/assets/image/Portal_Soluciones_carrusel.png"
                         alt="Portal de soluciones">
                     <div class="texto-imagensi">PORTAL DE SOLUCIONES</div>
                 </div>
@@ -99,12 +99,12 @@
             <div class="conten_iconossi">
 
                 <a href="#" onclick="navegarCarrusel(-1)">
-                    <img class="conten_iconos_icosi" src="/innova/hola/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
+                    <img class="conten_iconos_icosi" src="/innova/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
 
                 </a>
 
                 <a href="#" onclick="navegarCarrusel(1)">
-                    <img class="conten_iconos_icosi" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
+                    <img class="conten_iconos_icosi" src="/innova/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
 
                 </a>
 

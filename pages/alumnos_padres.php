@@ -17,7 +17,7 @@
 
             <ul>
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Pago en línea de colegiaturas </strong><br>
                         Realiza tus pagos escolares fácilmente con tarjeta de crédito, débito o en Oxxo,
@@ -26,7 +26,7 @@
                 </li>
 
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Consulta de historial académico</strong><br>
                         Accede en tiempo real a tus calificaciones, materias cursadas y avances
@@ -35,7 +35,7 @@
                 </li>
 
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Caja y facturación electrónica</strong><br>
                         Genera fichas de pago, consulta tu estado de cuenta y descarga facturas al
@@ -44,7 +44,7 @@
                 </li>
 
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Evaluación docente en línea</strong><br>
                         Responde encuestas de profesores y obtén reportes automatizados por materia
@@ -60,19 +60,19 @@
             <div class="conten_imagenesap">
 
                 <div class="imagen-con-textoap">
-                    <img class="conten_imagenes_fotoap" src="/innova/hola/webescolar_promo/assets/image/Portal_Soluciones_carrusel.png"
+                    <img class="conten_imagenes_fotoap" src="/innova/webescolar_promo/assets/image/Portal_Soluciones_carrusel.png"
                         alt="Portal de solucionesap">
                     <div class="texto-imagenap">PORTAL DE SOLUCIONES</div>
                 </div>
 
                 <div class="imagen-con-textoap">
-                    <img class="conten_imagenes_fotoap" src="/innova/hola/webescolar_promo/assets/image/Servicios Integrados_carrusel.png"
+                    <img class="conten_imagenes_fotoap" src="/innova/webescolar_promo/assets/image/Servicios Integrados_carrusel.png"
                         alt="Servicios integradosap">
                     <div class="texto-imagenap">SERVICIOS INTEGRADOS</div>
                 </div>
 
                 <div class="imagen-con-textoap">
-                    <img class="conten_imagenes_fotoap" src="/innova/hola/webescolar_promo/assets/image/Servicios Escolares_carrusel.png"
+                    <img class="conten_imagenes_fotoap" src="/innova/webescolar_promo/assets/image/Servicios Escolares_carrusel.png"
                         alt="Servicios escolaresap">
                     <div class="texto-imagenap">SERVICIOS ESCOLARES</div>
                 </div>
@@ -89,11 +89,11 @@
             <div class="conten_iconosap">
 
                 <a href="#" onclick="navegarCarrusel(-1)">
-                    <img class="conten_iconos_icoap" src="/innova/hola/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
+                    <img class="conten_iconos_icoap" src="/innova/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
                 </a>
 
                 <a href="#" onclick="navegarCarrusel(1)">
-                    <img class="conten_iconos_icoap" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
+                    <img class="conten_iconos_icoap" src="/innova/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
                 </a>
 
                 <hr class="conten_iconos_hrap">

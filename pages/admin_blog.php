@@ -254,7 +254,7 @@ if ($editId) {
 
         <div class="form-container">
             <h2><i class="fas fa-plus-circle"></i> <?php echo $editingPost ? 'Editar Post' : 'Crear Nuevo Post'; ?></h2>
-            <form action="/innova/hola/webescolar_promo/blog_handler.php" method="POST" enctype="multipart/form-data">
+            <form action="/innova/webescolar_promo/blog_handler.php" method="POST" enctype="multipart/form-data">
                 <input type="hidden" name="action" value="<?php echo $editingPost ? 'update' : 'create'; ?>">
                 <?php if ($editingPost): ?>
                     <input type="hidden" name="id" value="<?php echo htmlspecialchars($editingPost['id']); ?>">
@@ -333,10 +333,10 @@ if ($editId) {
                     <button type="submit" class="btn btn-success">
                         <i class="fas fa-save"></i> <?php echo $editingPost ? 'Actualizar Post' : 'Guardar Post'; ?>
                     </button>
-                    <a href="/innova/hola/webescolar_promo/pages/admin_blog.php" class="btn btn-secondary">
+                    <a href="/innova/webescolar_promo/pages/admin_blog.php" class="btn btn-secondary">
                         <i class="fas fa-undo"></i> Cancelar
                     </a>
-                    <a href="/innova/hola/webescolar_promo/blog.php" class="btn">
+                    <a href="/innova/webescolar_promo/blog.php" class="btn">
                         <i class="fas fa-home"></i> Ir al Blog
                     </a>
                 </div>
@@ -362,7 +362,7 @@ if ($editId) {
         });
 
         function loadPosts() {
-            fetch('/innova/hola/webescolar_promo/blog_handler.php?action=get_posts')
+            fetch('/innova/webescolar_promo/blog_handler.php?action=get_posts')
                 .then(r => r.json())
                 .then(data => {
                     const c = document.getElementById('posts-container');
@@ -377,7 +377,7 @@ if ($editId) {
                                 <p><strong>Estado:</strong> <span style="color: ${post.estado === 'publicado' ? 'green' : 'orange'}">${post.estado}</span></p>
                                 <p>${post.resumen}</p>
                                 <div class="post-actions">
-                                    <a class="btn btn-small" href="/innova/hola/webescolar_promo/pages/admin_blog.php?edit=${encodeURIComponent(post.id)}">
+                                    <a class="btn btn-small" href="/innova/webescolar_promo/pages/admin_blog.php?edit=${encodeURIComponent(post.id)}">
                                         <i class="fas fa-edit"></i> Editar
                                     </a>
                                     <button class="btn btn-small btn-danger" onclick="deletePost('${post.id}')">
@@ -395,7 +395,7 @@ if ($editId) {
 
         function deletePost(id) {
             if (!confirm('¿Eliminar este post?')) return;
-            fetch('/innova/hola/webescolar_promo/blog_handler.php', {
+            fetch('/innova/webescolar_promo/blog_handler.php', {
                 method: 'POST', headers: {'Content-Type':'application/x-www-form-urlencoded'},
                 body: `action=delete&id=${encodeURIComponent(id)}`
             }).then(r=>r.json()).then(d=>{ if(d.success){ loadPosts(); alert('Post eliminado'); } else { alert('Error: '+d.message);} });

@@ -21,7 +21,7 @@
         </div>
       </li>
       <li>
-        <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/137.png" alt="logo">
+        <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/137.png" alt="logo">
         <div class="textoap">
 
           Nuestra plataforma se adapta a distintos modelos y necesidades, brindando soluciones
@@ -30,7 +30,7 @@
       </li>
 
       <li>
-        <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/137.png" alt="logo">
+        <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/137.png" alt="logo">
         <div class="textoap">
 
           Trabajamos de la mano con cada institución, comprometidos con un acompañamiento
@@ -42,19 +42,19 @@
   </div>
 
   <div class="imagenesini">
-    <img src="/innova/hola/webescolar_promo/assets/image/Instituto diguital del estado de  Puebla.png" alt="Iedep">
-    <img src="/innova/hola/webescolar_promo/assets/image/libre de derecho.png" alt="Libre de Derecho">
-    <img src="/innova/hola/webescolar_promo/assets/image/CMUCH.png" alt="Cmuch">
-    <img src="/innova/hola/webescolar_promo/assets/image/Ibero.png" alt="Ibero">
-    <img src="/innova/hola/webescolar_promo/assets/image/wilbing.png" alt="wilbing">
+    <img src="/innova/webescolar_promo/assets/image/Instituto diguital del estado de  Puebla.png" alt="Iedep">
+    <img src="/innova/webescolar_promo/assets/image/libre de derecho.png" alt="Libre de Derecho">
+    <img src="/innova/webescolar_promo/assets/image/CMUCH.png" alt="Cmuch">
+    <img src="/innova/webescolar_promo/assets/image/Ibero.png" alt="Ibero">
+    <img src="/innova/webescolar_promo/assets/image/wilbing.png" alt="wilbing">
   </div>
 
   <div class="imagenesini">
-    <img src="/innova/hola/webescolar_promo/assets/image/Sombra.png" alt="Sombra">
-    <img src="/innova/hola/webescolar_promo/assets/image/Sombra.png" alt="Sombra">
-    <img src="/innova/hola/webescolar_promo/assets/image/Sombra.png" alt="Sombra">
-    <img src="/innova/hola/webescolar_promo/assets/image/Sombra.png" alt="Ibero">
-    <img src="/innova/hola/webescolar_promo/assets/image/Sombra.png" alt="wilbing">
+    <img src="/innova/webescolar_promo/assets/image/Sombra.png" alt="Sombra">
+    <img src="/innova/webescolar_promo/assets/image/Sombra.png" alt="Sombra">
+    <img src="/innova/webescolar_promo/assets/image/Sombra.png" alt="Sombra">
+    <img src="/innova/webescolar_promo/assets/image/Sombra.png" alt="Ibero">
+    <img src="/innova/webescolar_promo/assets/image/Sombra.png" alt="wilbing">
   </div>
 
 

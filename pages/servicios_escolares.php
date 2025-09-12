@@ -16,7 +16,7 @@
 
             <ul>
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Información Centralizada en Tiempo Real: </strong>
                         <br>
@@ -27,7 +27,7 @@
                 </li>
 
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Administración Completa:</strong>
                         Gestiona fácilmente calificaciones, becas, horarios,
@@ -37,7 +37,7 @@
 
                 </li>
                 <li>
-                    <img class="contenido_iconoap" src="/innova/hola/webescolar_promo/assets/image/138.png" alt="logo">
+                    <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Gestión Integral de Instituciones y Modelos Educativos:</strong>
 
@@ -57,17 +57,17 @@
             <div class="conten_imagenessi">
 
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/marketing_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/webescolar_promo/assets/image/marketing_carrusel.png"
                         alt="Servicios integrados">
                     <div class="texto-imagensi">SERVICIOS ACADEMÉMICOS</div>
                 </div>
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/servisios academicos_carrusel.png"
+                    <img class="conten_imagenes_fotosi" src="/innova/webescolar_promo/assets/image/servisios academicos_carrusel.png"
                         alt="Servicios escolaressi">
                     <div class="texto-imagensi">MARKETING</div>
                 </div>
                 <div class="imagen-con-textosi">
-                    <img class="conten_imagenes_fotosi" src="/innova/hola/webescolar_promo/assets/image/servicios financieros_carrusel.png" alt="Portal de soluciones">
+                    <img class="conten_imagenes_fotosi" src="/innova/webescolar_promo/assets/image/servicios financieros_carrusel.png" alt="Portal de soluciones">
                     <div class="texto-imagensi">SERVICIOS FINANCIEROS</div>
                 </div>
 
@@ -79,12 +79,12 @@
             <div class="conten_iconossi">
 
                 <a href="#" onclick="navegarCarrusel(-1)">
-                    <img class="conten_iconos_icosi" src="/innova/hola/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
+                    <img class="conten_iconos_icosi" src="/innova/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
 
                 </a>
 
                 <a href="#" onclick="navegarCarrusel(1)">
-                    <img class="conten_iconos_icosi" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
+                    <img class="conten_iconos_icosi" src="/innova/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
 
                 </a>
 

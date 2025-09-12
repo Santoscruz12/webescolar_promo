@@ -15,7 +15,7 @@ $posts_to_show = getRecentBlogPosts(10);
   <div class="blog-mainbg">
     <div class="blog-buttonbg">
       <button onclick="window.location.href='#blog'">Ver artículo principal</button>
-      <a href="/innova/hola/webescolar_promo/pages/admin_blog.php" class="btn-new-post">
+      <a href="/innova/webescolar_promo/pages/admin_blog.php" class="btn-new-post">
         <i class="fas fa-plus"></i> Crear Nuevo Post
       </a>
     </div>
@@ -23,7 +23,7 @@ $posts_to_show = getRecentBlogPosts(10);
     <?php if (!empty($posts_to_show)): ?>
       <div class="blog-posts-grid">
         <?php foreach ($posts_to_show as $post): ?>
-          <a class="blog_barra1" href="/innova/hola/webescolar_promo/blog.php?id=<?php echo $post['id']; ?>" style="text-decoration:none; color:inherit;">
+          <a class="blog_barra1" href="/innova/webescolar_promo/blog.php?id=<?php echo $post['id']; ?>" style="text-decoration:none; color:inherit;">
             <?php if (!empty($post['imagen'])): ?>
               <img src="<?php echo htmlspecialchars($post['imagen']); ?>" alt="<?php echo htmlspecialchars($post['titulo']); ?>">
             <?php else: ?>
