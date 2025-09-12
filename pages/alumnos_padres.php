@@ -88,23 +88,14 @@
 
             <div class="conten_iconosap">
 
-<<<<<<< HEAD
 
-                <img class="conten_iconos_icoap" src="/innova/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
-
-
-
-                <a href="#" onclick="navegarCarrusel(1)">
-                    <img class="conten_iconos_icoap" src="/innova/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
-
-=======
                 <a href="#" onclick="navegarCarrusel(-1)">
                     <img class="conten_iconos_icoap" src="/innova/hola/webescolar_promo/assets/image/flecha_izquierda.png" alt="Iconos">
                 </a>
 
                 <a href="#" onclick="navegarCarrusel(1)">
                     <img class="conten_iconos_icoap" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
->>>>>>> cbceb592b3b5d9123a30d01f68a2deeae5f3d48a
+
                 </a>
 
                 <hr class="conten_iconos_hrap">
