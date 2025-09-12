@@ -832,7 +832,7 @@ margin-top: 10px;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Alumnos y Padres.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Alumnos y Padres.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -847,7 +847,7 @@ margin-top: 10px;
 .headerapa {
   width: 100%;
   height: 65x;
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Fondo_banner_superior.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Fondo_banner_superior.png');
   background-color: #333;
   background-size: cover;
   background-position: center;
@@ -1336,7 +1336,7 @@ margin-top: 10px;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Integraciones.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Integraciones.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -1814,7 +1814,7 @@ margin-top: 10px;
 /*servicios integrado  */
 
 .bodysi {
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Servicios_integrados.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Servicios_integrados.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -2161,7 +2161,7 @@ margin-top: 10px;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Servicios_escolares.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Servicios_escolares.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -2180,7 +2180,7 @@ margin-top: 10px;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Servicios_academicos.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Servicios_academicos.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -2193,7 +2193,7 @@ margin-top: 10px;
 
 /* vinculo 360 */
 .body360 {
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Vinculo_360.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Vinculo_360.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -2217,7 +2217,7 @@ margin-top: 10px;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Servicios_financieros.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Servicios_financieros.png');
   background-color: #2b2a2a;
   width: 100%;
   min-height: 100vh;
@@ -2382,7 +2382,7 @@ margin-top: 10px;
 
 .chatbot-boxco {
   display: none;
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Recuadro_azul.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Recuadro_azul.png');
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -2615,7 +2615,7 @@ margin-top: 10px;
 }
 
 .footercm {
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Fondo_banner_parte_de_abajo.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Fondo_banner_parte_de_abajo.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3052,7 +3052,7 @@ margin-top: 10px;
 
 /* FOOTER */
 footer {
-  background-image: url('/innova/hola/webescolar_promo/assets/image/Fondo_banner_parte_de_abajo.png');
+  background-image: url('/innova/webescolar_promo/assets/image/Fondo_banner_parte_de_abajo.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

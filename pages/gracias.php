@@ -1,5 +1,5 @@
   <div class="logo_gc">
-      <img src="/innova/hola/webescolar_promo/assets/icono/logo.svg" alt="Logo WebEscolar">
+      <img src="/innova/webescolar_promo/assets/icono/logo.svg" alt="Logo WebEscolar">
     </div>
 <div class="contenedor_testgc">
 
@@ -20,7 +20,7 @@
 
     </div>
     <div class="contenido_principal_text_imagc">
-      <img src="/innova/hola/webescolar_promo/assets/image/cuadrito.png" alt="">
+      <img src="/innova/webescolar_promo/assets/image/cuadrito.png" alt="">
 
     </div>
 
@@ -35,7 +35,7 @@
 
   <footer>
     <div class="logogc">
-      <img src="/innova/hola/webescolar_promo/assets/icono/logo.svg" alt="Logo WebEscolar">
+      <img src="/innova/webescolar_promo/assets/icono/logo.svg" alt="Logo WebEscolar">
     </div>
 
     <div class="footer-containergc">
