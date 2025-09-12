@@ -27,11 +27,7 @@ $post = !empty($recent_posts) ? $recent_posts[0] : null;
       <p class="blog-datebg"><?php echo formatBlogDate($post['fecha']); ?></p>
 
       <div class="blog-contentbg">
-<<<<<<< HEAD
-        <div class="blog-imagebg">
-          <img  src="/innova/webescolar_promo/assets/image/Imagen_blog.png" alt="Deserción estudiantil">
-        </div>
-=======
+
         <?php if (!empty($post['imagen'])): ?>
           <div class="blog-imagebg">
             <img src="<?php echo htmlspecialchars($post['imagen']); ?>" alt="<?php echo htmlspecialchars($post['titulo']); ?>">
@@ -39,7 +35,7 @@ $post = !empty($recent_posts) ? $recent_posts[0] : null;
         <?php else: ?>
           <div class="blog-imagebg blog-img-default">Sin imagen</div>
         <?php endif; ?>
->>>>>>> cbceb592b3b5d9123a30d01f68a2deeae5f3d48a
+
         <div class="blog-textbg">
           <p><strong><?php echo htmlspecialchars($post['resumen']); ?></strong></p>
           <div class="blog-content-full">
