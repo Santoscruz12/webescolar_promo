@@ -94,12 +94,10 @@
                 </a>
 
                 <a href="#" onclick="navegarCarrusel(1)">
-<<<<<<< HEAD
+
                     <img class="conten_iconos_icoap" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
 
-=======
-                    <img class="conten_iconos_icoap" src="/innova/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
->>>>>>> c879f84a947f9c30dcfc217cfefaaeed986619f1
+
                 </a>
 
                 <hr class="conten_iconos_hrap">
