@@ -330,6 +330,17 @@
 .post-meta { display:flex; justify-content:space-between; align-items:center; font-size:12px; color:#e6e6e6; }
 .post-category { background: rgba(255,255,255,.15); color:#fff; }
 
+/* Desktop layout: horizontal pill cards (image left, title centered) */
+@media (min-width: 901px) {
+  .blog-posts-grid { grid-template-columns: 1fr; }
+  .blog_barra1 { display:flex; align-items:center; gap:20px; padding:18px 22px; border-radius:18px; }
+  .blog_barra1 img { width:220px; height:130px; flex:0 0 220px; border-radius:12px; object-fit: cover; filter:none; }
+  .blog_barra1 .card-text { position: static; background: transparent; color:#fff; padding:0; width:100%; text-align:center; }
+  .card-text h3 { color:#fff; font-size:22px; line-height:1.35; margin:0; }
+  .blog_barra1 .post-excerpt { display:none; }
+  .blog_barra1 .post-meta { display:none; }
+}
+
 /* Default image class if needed */
 .blog-img-default { background:#2e3142; display:flex; align-items:center; justify-content:center; height:240px; color:#fff; font-weight:600; }
 
