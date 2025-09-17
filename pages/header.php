@@ -4,7 +4,7 @@
         <!-- El nav normal se mantiene para desktop, pero en móvil se usará el drawer -->
         <nav class="main-nav">
             <ul class="nav-list">
-<<<<<<< HEAD
+
 
                 <li><a href="/innova/hola/webescolar_promo/#inicio"><img class="logo_ini" src="/innova/hola/webescolar_promo/assets/image/Agenda_demo.png" alt="Inicio"><span class="boton">INICIO</span></a></li>
                 <li><a href="/innova/hola/webescolar_promo/#conoce_institucion"><img class="logo_no" src="/innova/hola/webescolar_promo/assets/image/Nosotros.png" alt="Nosotros"><span class="boton">NOSOTROS</span></a></li>
@@ -15,16 +15,7 @@
                 <li><a href="/innova/hola/webescolar_promo/#blog"><img class="logo_ini" src="/innova/hola/webescolar_promo/assets/image/Blog.png" alt="Blog"><span class="boton">BLOG</span></a></li>
                 <li><a href="/innova/hola/webescolar_promo/#testimonios"><img class="logo_ini" src="/innova/hola/webescolar_promo/assets/image/Blog.png" alt="Blog"><span class="boton">TESTIMONIOS</span></a></li>
 
-=======
-                <li><a href="/innova/webescolar_promo/#inicio"><img class="logo_ini" src="/innova/webescolar_promo/assets/image/Agenda_demo.png" alt="Inicio"><span class="boton">INICIO</span></a></li>
-                <li><a href="/innova/webescolar_promo/#conoce_institucion"><img class="logo_no" src="/innova/webescolar_promo/assets/image/Nosotros.png" alt="Nosotros"><span class="boton">NOSOTROS</span></a></li>
-                <li><a href="/innova/webescolar_promo/#tecnologia"><img class="logo_ini" src="/innova/webescolar_promo/assets/image/Desarrollo.png" alt="Desarrollo"><span class="boton">DESARROLLO</span></a></li>
-                <li><a href="/innova/webescolar_promo/#contenedor-fragmentos"><img class="logo_ini" src="/innova/webescolar_promo/assets/image/Modulos.png" alt="Módulos"><span class="boton">MÓDULOS</span></a></li>
-                <li><a href="/innova/webescolar_promo/#contactanos"><img class="logo_ini" src="/innova/webescolar_promo/assets/image/Agenda_demo.png" alt="Agenda Demo"><span class="boton">AGENDA DEMO</span></a></li>
-                <li><a href="/innova/webescolar_promo/#gracias"><img class="logo_no" src="/innova/webescolar_promo/assets/image/Contacto.png" alt="Contacto"><span class="boton">CONTACTO</span></a></li>
-                <li><a href="/innova/webescolar_promo/#blog"><img class="logo_ini" src="/innova/webescolar_promo/assets/image/Blog.png" alt="Blog"><span class="boton">BLOG</span></a></li>
-                <li><a href="/innova/webescolar_promo/#testimonios"><img class="logo_ini" src="/innova/webescolar_promo/assets/image/Blog.png" alt="Blog"><span class="boton">TESTIMONIOS</span></a></li>
->>>>>>> c879f84a947f9c30dcfc217cfefaaeed986619f1
+
             </ul>
         </nav>
     </div>
