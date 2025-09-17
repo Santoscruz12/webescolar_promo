@@ -20,6 +20,7 @@ $posts_to_show = getRecentBlogPosts(10);
       </a>
     </div>
 
+
     <?php if (!empty($posts_to_show)): ?>
       <div class="blog-posts-grid">
         <?php foreach ($posts_to_show as $post): ?>
@@ -45,5 +46,6 @@ $posts_to_show = getRecentBlogPosts(10);
         <p>¡Vuelve pronto para más contenido interesante!</p>
       </div>
     <?php endif; ?>
+
   </div>
 </div>

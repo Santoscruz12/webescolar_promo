@@ -27,6 +27,7 @@ $post = !empty($recent_posts) ? $recent_posts[0] : null;
       <p class="blog-datebg"><?php echo formatBlogDate($post['fecha']); ?></p>
 
       <div class="blog-contentbg">
+
         <?php if (!empty($post['imagen'])): ?>
           <div class="blog-imagebg">
             <img src="<?php echo htmlspecialchars($post['imagen']); ?>" alt="<?php echo htmlspecialchars($post['titulo']); ?>">
@@ -34,6 +35,7 @@ $post = !empty($recent_posts) ? $recent_posts[0] : null;
         <?php else: ?>
           <div class="blog-imagebg blog-img-default">Sin imagen</div>
         <?php endif; ?>
+
         <div class="blog-textbg">
           <p><strong><?php echo htmlspecialchars($post['resumen']); ?></strong></p>
           <div class="blog-content-full">
