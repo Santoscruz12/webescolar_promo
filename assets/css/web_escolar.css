@@ -129,17 +129,23 @@ body {
 .conte_autoi {
 
   font-size: 22px;
-  text-align: center;
+  text-align: left;
 }
 
 .conte_auto2i {
   margin-top: 5px;
   font-size: 22px;
-  text-align: center;
+  text-align: left;
+  padding-left: 100px; /* Restaurar indentación escalonada */
 }
 
 .conte_contenidoi {
-  text-align: center;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 80px; /* Mover todo el bloque más hacia la derecha */
+  margin-top: 30px; /* Bajar todo el bloque */
 
 }
 
@@ -150,10 +156,11 @@ body {
   border-radius: 15px;
   padding: 9px 19px;
   color: white;
-  background: #41342c;
+  background: #403e50;
   border: none;
   outline: none;
   box-shadow: none;
+  margin-left: 100px; /* Restaurar indentación escalonada */
 }
 
 .footeri {
@@ -229,6 +236,32 @@ body {
   .conte_auto2i {
     font-size: 17px;
   }
+  
+  .conte_contenidoi {
+    text-align: center;
+    align-items: center;
+    padding-left: 0; /* Sin padding en móviles */
+    margin-top: 15px; /* Bajar todo el bloque en móviles */
+  }
+  
+  .conte_autoi {
+    text-align: center;
+    padding-left: 0; /* Sin indentación en móviles */
+  }
+  
+  .conte_auto2i {
+    text-align: center;
+    padding-left: 0; /* Sin indentación escalonada en móviles */
+  }
+  
+  .conte_buttoni {
+    margin: 15px auto 0 auto; /* Centrar el botón horizontalmente */
+    width: auto; /* Ancho automático para mantener en una línea */
+    padding: 9px 25px; /* Padding horizontal aumentado */
+    white-space: nowrap; /* Evitar salto de línea */
+    text-align: center; /* Centrar texto del botón */
+    display: block; /* Asegurar que sea un bloque para centrado */
+  }
   .conte_escolar_2i {
   font-size: 17px;
   word-spacing:2px;
@@ -243,8 +276,13 @@ body {
 }
 
   .conte_buttoni {
-    width: 80%;
+    width: auto; /* Ancho automático para mantener en una línea */
     font-size: 14px;
+    margin: 15px auto 0 auto; /* Centrar el botón horizontalmente */
+    padding: 9px 25px; /* Padding horizontal aumentado */
+    white-space: nowrap; /* Evitar salto de línea */
+    text-align: center; /* Centrar texto del botón */
+    display: block; /* Asegurar que sea un bloque para centrado */
   }
 
   .conte_ima_inii {
@@ -272,6 +310,20 @@ body {
   
   .conte_tituloi {
     font-size: 20px;
+  }
+  
+  .conte_contenidoi {
+    padding-left: 40px; /* Ajuste para tablets */
+    margin-top: 25px;
+  }
+  
+  .conte_auto2i {
+    padding-left: 80px; /* Indentación escalonada para tablets */
+  }
+  
+  .conte_buttoni {
+    margin-left: 80px; /* Botón con indentación escalonada para tablets */
+    width: 60%;
   }
 }
 
@@ -304,10 +356,32 @@ body {
     font-size: 14px;
   }
   
-  .conte_buttoni {
-    width: 90%;
-    font-size: 12px;
+  .conte_contenidoi {
+    text-align: center;
+    align-items: center;
+    padding-left: 0; /* Sin padding en pantallas muy pequeñas */
+    margin-top: 10px; /* Bajar todo el bloque en pantallas muy pequeñas */
   }
+  
+  .conte_autoi {
+    text-align: center;
+    padding-left: 0; /* Sin indentación en pantallas muy pequeñas */
+  }
+  
+  .conte_auto2i {
+    text-align: center;
+    padding-left: 0; /* Sin indentación escalonada en pantallas muy pequeñas */
+  }
+  
+  .conte_buttoni {
+    margin: 15px auto 0 auto; /* Centrar el botón horizontalmente */
+    width: auto; /* Ancho automático para mantener en una línea */
+    padding: 8px 20px; /* Padding horizontal ajustado para pantallas pequeñas */
+    white-space: nowrap; /* Evitar salto de línea */
+    text-align: center; /* Centrar texto del botón */
+    display: block; /* Asegurar que sea un bloque para centrado */
+  }
+  
 }
 
 
@@ -339,7 +413,7 @@ margin-top: 10px;
 
 .contenido_titut {
 
-  font-size: 31.7px;
+  font-size: 50.1px;
   color: #2230b2;
   text-align: center;
 }
@@ -420,22 +494,23 @@ margin-top: 10px;
   width: 70%;
   margin-left: 10px;
 
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   /* Para que se acomoden en varias filas si es necesario */
 
 }
 
 .contenido_flex_imagen_emailt {
-  max-height: 50px;
+  max-height: 42px;
   /* Puedes ajustar este tamaño */
-  max-width: 50px;
+  max-width: 42px;
 
 }
 
 .contenido_iconot {
 
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 18px;
+  max-height: 18px;
 }
 .contenedor_texto_clamp {
   display: -webkit-box;
@@ -679,7 +754,7 @@ margin-top: 10px;
 }
 
 .testimoniote h3 {
-  font-size: 27px;
+  font-size: 28.9px;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -709,7 +784,7 @@ margin-top: 10px;
  
 
   .testimoniote h3 {
-    font-size: 20px;
+    font-size: 21.2px;
   }
 
   .testimoniote p,
@@ -745,7 +820,7 @@ margin-top: 10px;
   }
 
   .testimoniote h3 {
-    font-size: 16px;
+    font-size: 17.3px;
     margin-bottom: 10px;
   }
 
@@ -786,7 +861,7 @@ margin-top: 10px;
   }
   
   .testimoniote h3 {
-    font-size: 24px;
+    font-size: 25.5px;
   }
   
   .testimoniote p,
@@ -812,7 +887,7 @@ margin-top: 10px;
   }
   
   .testimoniote h3 {
-    font-size: 14px;
+    font-size: 15.2px;
   }
   
   .testimoniote p {
@@ -1029,7 +1104,12 @@ margin-top: 10px;
 
 .contenido_textoap li div.texto {
   flex: 1;
-  font-size: 16px;
+  font-size: 20.1px;
+  line-height: 1.5;
+}
+
+.textoap {
+  font-size: 20.1px;
   line-height: 1.5;
 }
 
@@ -1119,7 +1199,7 @@ margin-top: 10px;
 
 
   color: white;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
 
   padding: 9px 30px;
@@ -1133,7 +1213,7 @@ margin-top: 10px;
   border-radius: 15px;
   padding: 9px 19px;
   color: white;
-  background: #41342c;
+  background: #403e50;
   border: none;
   /* ❌ Elimina borde negro */
   outline: none;
@@ -1295,7 +1375,11 @@ margin-top: 10px;
   }
   
   .contenido_textoap li div.texto {
-    font-size: 15px;
+    font-size: 18.8px;
+  }
+  
+  .textoap {
+    font-size: 18.8px;
   }
   
   .conten_imagenes_fotoap {
@@ -1311,7 +1395,11 @@ margin-top: 10px;
   }
   
   .contenido_textoap li div.texto {
-    font-size: 13px;
+    font-size: 16.3px;
+  }
+  
+  .textoap {
+    font-size: 16.3px;
   }
   
   .conten_imagenes_fotoap {
@@ -1448,7 +1536,7 @@ margin-top: 10px;
 
 
   color: white;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
 
   padding: 9px 10px;
@@ -1877,6 +1965,13 @@ margin-top: 10px;
   font-size: 54px;
   line-height: 1.1;
   margin-bottom: 20px;
+}
+
+.contenido_texto_titulosi {
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  font-weight: 400;
 }
 
 .si_opciones {
@@ -2352,7 +2447,7 @@ margin-top: 10px;
 }
 
 .submit-btnco {
-  background-color: #2759e4;
+  background-color: #403e50;
   color: white;
   border: none;
   padding: 12px 25px;
@@ -2367,7 +2462,7 @@ margin-top: 10px;
 }
 
 .submit-btnco:hover {
-  background-color: #2980b9;
+  background-color: #2d2b3a;
 }
 
 .contenedor_chatco {
@@ -2452,7 +2547,7 @@ margin-top: 10px;
 }
 
 .chatbot-sendco {
-  background: #2230b2;
+  background: #403e50;
   color: #fff;
   border: none;
   border-radius: 50%;

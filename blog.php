@@ -57,7 +57,7 @@ function urlWith($params) {
 				<form method="get" action="blog.php" style="display:flex; gap:8px; align-items:center;">
 					<input type="text" name="q" placeholder="Buscar en el blog..." value="<?php echo htmlspecialchars($searchTerm); ?>" style="padding:10px 12px; border:1px solid #e1e5e9; border-radius:8px; min-width:240px;">
 					<button type="submit" class="btn-new-post" style="background:#1e3070; box-shadow:none;">Buscar</button>
-					<a href="pages/admin_blog.php" class="btn-new-post"><i class="fas fa-plus"></i> Nuevo Post</a>
+					<a href="https://blog.webescolar.com.mx/" class="btn-new-post"><i class="fas fa-plus"></i> Ir al blog</a>
 				</form>
 			</div>
 

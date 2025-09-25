@@ -1,13 +1,14 @@
  
 
      
-        .titulo {
+        .tituloco {
             font-size: 22px;
             margin-bottom: 20px;
             text-align: left;
+            color: #253c81;
         }
 
-        .container {
+        .containerco {
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -15,14 +16,14 @@
             justify-content: center;
         }
 
-        .container hr {
+        .containerco hr {
             width: 100%;
             border: none;
             height: 1px;
             background-color: #3a3a3a;
         }
 
-        .contenedor {
+        .contenedorco {
             width: 100%;
             flex: 1;
             display: flex;
@@ -34,18 +35,20 @@
             max-width: 1200px;
         }
 
-        .contenedor_h1 {
+        .contenedor_h1co {
             font-weight: normal;
             font-size: 40px;
             margin-bottom: 20px;
+            color: #253c81;
         }
 
-        .contenedor_p {
+        .contenedor_pco {
             font-size: 24px;
             margin-bottom: 10px;
+            color: #253c81;
         }
 
-        .container2 {
+        .container2co {
             width: 90%;
             margin: 30px auto 20px;
             display: flex;
@@ -53,43 +56,46 @@
             justify-content: space-between;
         }
 
-        .container2 hr {
+        .container2co hr {
             width: 100%;
             border: none;
             height: 1.5px;
             background-color: #cec9c9;
         }
 
-        .contact-form {
+        .contact-formco {
             position: relative; /* Necesario para el posicionamiento absoluto */
             padding: 20px;
             border-radius: 8px;
             width: 100%;
             max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        .form-row {
+        .form-rowco {
             display: flex;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             width: 100%;
             gap: 120px;
             justify-content: center;
         }
 
-        .form-group {
+        .form-groupco {
             flex: 1;
             min-width: 200px;
         }
 
-        label {
+        .labelco {
             text-align: left;
             display: block;
             margin-bottom: 8px;
             font-weight: bold;
-            color: #2c3e50;
+            color: #253c81;
         }
 
-        .line-input {
+        .line-inputco {
             border: none;
             border-bottom: 1px solid #d1cccc;
             width: 100%;
@@ -97,31 +103,35 @@
             font-size: 16px;
             background: transparent;
             outline: none;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
-        .line-input:focus {
-            border-bottom: 2px solid #0066cc;
+        .line-inputco:focus {
+            border-bottom: 2px solid #253c81;
+            box-shadow: 0 4px 8px rgba(37, 60, 129, 0.2);
         }
 
-        .submit-btn {
-            background-color: #2759e4;
+        .submit-btnco {
+            background: linear-gradient(135deg, #253c81 0%, #80afc6 100%);
             color: white;
             border: none;
             padding: 12px 25px;
             font-size: 16px;
-            border-radius: 4px;
+            border-radius: 20px;
             cursor: pointer;
             display: block;
             margin: 30px auto 0;
-            border-radius: 20px;
-            transition: background-color 0.3s;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(37, 60, 129, 0.3);
         }
 
-        .submit-btn:hover {
-            background-color: #2980b9;
+        .submit-btnco:hover {
+            background: linear-gradient(135deg, #1e2f6b 0%, #6b9bb8 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 60, 129, 0.4);
         }
 
-        .contenedor_chat {
+        .contenedor_chatco {
             position: fixed;
             bottom: 30px;
             right: 30px;
@@ -131,7 +141,7 @@
             cursor: pointer;
         }
 
-        .chatbot-box {
+        .chatbot-boxco {
             display: none;
             background-image: url('/innova/webescolar_promo/assets/image/Recuadro_azul.png');
             background-size: cover;
@@ -151,7 +161,7 @@
             overflow: hidden;
         }
 
-        .chatbot-header {
+        .chatbot-headerco {
             display: flex;
             justify-content: end;
             align-items: end;
@@ -164,7 +174,7 @@
             height: 38px;
         }
 
-        .chatbot-body {
+        .chatbot-bodyco {
             flex: 1 1 auto;
             height: 80%;
             display: flex;
@@ -173,7 +183,7 @@
             padding: 0 18px 18px 18px;
         }
 
-        .chatbot-message {
+        .chatbot-messageco {
             background: #fff;
             color: #5e6072;
             border-radius: 16px 16px 16px 4px;
@@ -184,13 +194,13 @@
             font-weight: 500;
         }
 
-        .chatbot-input-row {
+        .chatbot-input-rowco {
             display: flex;
             align-items: center;
             gap: 8px;
         }
 
-        .chatbot-input {
+        .chatbot-inputco {
             flex: 1;
             border: none;
             border-radius: 18px;
@@ -202,8 +212,8 @@
             box-shadow: 0 1px 4px rgba(0,0,0,0.04);
         }
 
-        .chatbot-send {
-            background: #2230b2;
+        .chatbot-sendco {
+            background: #403e50;
             color: #fff;
             border: none;
             border-radius: 50%;
@@ -216,65 +226,65 @@
             cursor: pointer;
             transition: background 0.2s;
         }
-        .chatbot-send:hover {
-            background: #1a256e;
+        .chatbot-sendco:hover {
+            background: #2d2b3a;
         }
 
 @media (max-width: 900px) {
-    .contenedor {
+    .contenedorco {
         padding: 10px 5px;
     }
-    .contact-form {
+    .contact-formco {
         max-width: 100%;
         padding: 10px;
     }
-    .form-row {
+    .form-rowco {
         gap: 40px;
     }
-    .contenedor_h1 {
+    .contenedor_h1co {
         font-size: 28px;
     }
-    .contenedor_p {
+    .contenedor_pco {
         font-size: 18px;
     }
-    .contenedor_chat {
+    .contenedor_chatco {
         right: -100px;
         height: 40px;
     }
 }
 
 @media (max-width: 600px) {
-    .contenedor {
+    .contenedorco {
         padding: 5px 2px;
         max-width: 100%;
     }
-    .contact-form {
+    .contact-formco {
         padding: 5px;
         max-width: 100%;
     }
-    .form-row {
+    .form-rowco {
         flex-direction: column;
         gap: 0;
         margin-bottom: 10px;
     }
-    .form-group {
+    .form-groupco {
         min-width: unset;
         margin-bottom: 15px;
     }
-    .contenedor_h1 {
+    .contenedor_h1co {
         font-size: 22px;
         text-align: center;
     }
-    .contenedor_p {
+    .contenedor_pco {
         font-size: 15px;
         text-align: center;
     }
-    .submit-btn {
+    .submit-btnco {
         width: 100%;
         font-size: 15px;
         padding: 10px 0;
     }
-    .contenedor_chat {
+    .contenedor_chatco {
         position: static;
         display: block;
         margin: 20px auto 0 auto;

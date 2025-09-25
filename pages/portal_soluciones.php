@@ -11,6 +11,7 @@
     <div class="contenido_textops">
       <h1 class="conte_titulops">PORTAL DE
         SOLUCIONES</h1>
+      <h2 class="conte_titulo_gesap">GESTIÓN ESCOLAR DIGITAL AL ALCANCE DE UN CLIC.</h2>
 
       <ul class="lista-solucionesps">
         <li class="item-solucionps">
@@ -53,7 +54,7 @@
         <div class="imagen-con-textops">
           <img class="conten_imagenes_fotops" src="/innova/webescolar_promo/assets/image/Servicios Integrados_carrusel.png"
             alt="Portal de solucionesps">
-          <div class="texto-imagenps">PORTAL DE SOLUCIONES</div>
+          <div class="texto-imagenps">SERVICIOS INTEGRADOS</div>
         </div>
 
         <div class="imagen-con-textops">

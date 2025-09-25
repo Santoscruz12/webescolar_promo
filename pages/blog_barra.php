@@ -15,8 +15,8 @@ $posts_to_show = getRecentBlogPosts(10);
   <div class="blog-mainbg">
     <div class="blog-buttonbg">
       <button onclick="window.location.href='#blog'">Ver artículo principal</button>
-      <a href="/innova/webescolar_promo/pages/admin_blog.php" class="btn-new-post">
-        <i class="fas fa-plus"></i> Crear Nuevo Post
+      <a href="https://blog.webescolar.com.mx/" class="btn-new-post">
+        <i class="fas fa-plus"></i> Ir al blog
       </a>
     </div>
 

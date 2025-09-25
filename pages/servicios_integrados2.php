@@ -23,7 +23,7 @@
                         <br>
                         Automatiza la generación y envío de invitaciones a clases virtuales en
                         plataformas como Zoom. Mejora la experiencia educativa con una gestión
-                        eficiente de sesiones híbridas
+                        eficiente de sesiones híbridas.
                     </div>
                 </li>
                 <br>

@@ -13,6 +13,7 @@
         <div class="contenido_textosi">
             <h1 class="conte_titulosi">VÍNCULO 360
             </h1>
+            <h2 class="conte_titulo_gesap">GESTIÓN ESCOLAR DIGITAL AL ALCANCE DE UN CLIC.</h2>
 
 
 
@@ -43,7 +44,7 @@
                 <li>
                     <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
-                        <strong>Captación Multicanal por Redes Sociales: </strong>
+                        <strong>Captación Multicanal: </strong>
 
                         <br>
                         Integra WhatsApp, Telegram, Messenger, Facebook e Instagram para atraer
@@ -59,7 +60,7 @@
                         <br>
                         Envía avisos, recordatorios, mensajes de cumpleaños y comunicados
                         importantes vía WhatsApp e Instagram, todo de forma programada y
-                        segmentada
+                        segmentada.
                     </div>
                 </li>
 

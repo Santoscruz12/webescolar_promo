@@ -1,6 +1,6 @@
 <br>
     <div class="headeco">
-        <h1 class="tituloco">Contactanos</h1>
+        <h1 class="tituloco">Contáctanos</h1>
         <div class="containerco">
             <hr>
         </div>

@@ -129,7 +129,7 @@ if ($editId) {
         }
 
         .btn-success {
-            background: linear-gradient(135deg, #28a745, #20c997);
+            background: #403e50;
         }
 
         .btn-danger {

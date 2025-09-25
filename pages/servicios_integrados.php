@@ -15,12 +15,13 @@
             <h1 class="conte_titulosi">SERVICIOS
                 INTEGRADOS
             </h1>
+            <h2 class="conte_titulo_gesap">GESTIÓN ESCOLAR DIGITAL AL ALCANCE DE UN CLIC.</h2>
 
             <ul>
                 <li>
                     <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
-                        <strong>Pagos en línea y en establecimientos físicos</strong>
+                        <strong>Pagos en línea y en establecimientos físicos.</strong>
                         <br>
                         Con WebEscolar, recibe pagos escolares fácilmente mediante tarjeta
                         bancaria, transferencias SPEI o en tiendas físicas afiliadas. Todos los pagos
@@ -30,9 +31,9 @@
                         <br>
                         <br>
                         <ul class="si_opciones">
-                            <li class="si_listas"> <i class="fas fa-check"></i> Seguridad garantizada</li>
-                            <li> <i class="fas fa-check"></i> Más opciones para tus usuarios</li>
-                            <li> <i class="fas fa-check"></i> Sin complicaciones</li>
+                            <li class="si_listas"> <i class="fas fa-check"></i> Seguridad garantizada.</li>
+                            <li> <i class="fas fa-check"></i> Más opciones para tus usuarios.</li>
+                            <li> <i class="fas fa-check"></i> Sin complicaciones.</li>
                         </ul>
 
 
@@ -43,7 +44,7 @@
                 <li>
                     <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
-                        <strong> Portal escolar conectado con Brightspace</strong>
+                        <strong>Portal escolar conectado con Brightspace.</strong>
                         <br>
                         El Portal Escolar de WebEscolar se integra en tiempo real con Brightspace,
                         actualizando automáticamente cursos, inscripciones y calificaciones.

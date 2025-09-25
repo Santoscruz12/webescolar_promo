@@ -20,14 +20,14 @@
             <ul style="margin-top: 20px;">
                 <li>
                     Optimiza los procesos escolares con un sistema académico inteligente que
-                    se adapta a tus necesidades institucionales
+                    se adapta a tus necesidades institucionales.
                 </li>
                 <li>
                     <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
                         <strong>Evaluación: </strong>
                         Crea reglas y políticas personalizadas para evaluar
-                        según tu modelo educativo
+                        según tu modelo educativo.
                     </div>
                 </li>
 
@@ -45,7 +45,7 @@
                         <strong>Calificaciones Automatizadas: </strong>
 
                         Registra y calcula calificaciones conforme a
-                        criterios definidos por asignatura o nivel
+                        criterios definidos por asignatura o nivel.
 
                     </div>
                 </li>

@@ -13,6 +13,7 @@
             <h1 class="conte_titulosi">SERVICIOS
                 ESCOLARES
             </h1>
+            <h2 class="conte_titulo_gesap">GESTIÓN ESCOLAR DIGITAL AL ALCANCE DE UN CLIC.</h2>
 
             <ul>
                 <li>
@@ -44,7 +45,7 @@
                         <br>
                         Administra múltiples campus, niveles educativos y modelos (escolarizado o por
                         créditos) desde un solo sistema. Accede a más de 100 reportes personalizados
-                        para una toma de decisiones eficiente
+                        para una toma de decisiones eficiente.
                     </div>
 
                 </li>

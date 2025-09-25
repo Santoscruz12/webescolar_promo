@@ -142,7 +142,7 @@
     width: 80vw;
     max-width: 350px;
     height: 100vh;
-    background: #2230b2;
+    background: #403e50;
     color: #fff;
     z-index: 2000;
     box-shadow: 2px 0 16px rgba(0,0,0,0.18);
@@ -186,7 +186,7 @@
     text-align: center;
 }
 .side-menu ul li a:hover {
-    background: #2230b2;
+    background: #403e50;
     color: #fff;
 }
 .side-menu-close {

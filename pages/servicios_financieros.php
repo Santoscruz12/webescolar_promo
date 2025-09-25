@@ -14,6 +14,7 @@
             <h1 class="conte_titulosi">SERVICIOS
                 FINANCIEROS
             </h1>
+            <h2 class="conte_titulo_gesap">GESTIÓN ESCOLAR DIGITAL AL ALCANCE DE UN CLIC.</h2>
 
             <h1 class="contenido_texto_titulosi">Gestión de Cobranza Automatizada</h1>
 
@@ -21,7 +22,7 @@
                 <li>
                     <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
-                        <strong>Facturación Electrónica recuentes :</strong>
+                        <strong>Facturación Electrónica Recurrente:</strong>
                         Emite comprobantes fiscales de
                         manera automática según tus ciclos escolares.
                     </div>
@@ -30,10 +31,10 @@
                 <li>
                     <img class="contenido_iconoap" src="/innova/webescolar_promo/assets/image/138.png" alt="logo">
                     <div class="textoap">
-                        <strong>Cobranza Flexible adaptable : </strong>
+                        <strong>Cobranza Flexible Adaptable: </strong>
 
                         Gestiona pagos por colegiaturas,
-                        inscripciones, becas y servicios adicionales
+                        inscripciones, becas y servicios adicionales.
                     </div>
 
                 </li>
@@ -43,7 +44,7 @@
                         <strong>Pagos en Línea Disponibles 24/7: </strong>
 
                         Acepta tarjeta, transferencia o pago en
-                        Oxxo desde cualquier dispositivo
+                        Oxxo desde cualquier dispositivo.
                     </div>
                 </li>
                 <li>

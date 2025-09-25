@@ -13,7 +13,7 @@
     <div class="contenidoap">
         <div class="contenido_textoap">
             <h1 class="conte_tituloap">ALUMNOS Y PADRES</h1>
-            <h2 class="conte_titulo_gesap">GESTIÓN ESCOLAR DIGITAL AL ALCANCE DE UN CLIC</h2>
+            <h2 class="conte_titulo_gesap">GESTIÓN ESCOLAR DIGITAL AL ALCANCE DE UN CLIC.</h2>
 
             <ul>
                 <li>
@@ -30,7 +30,7 @@
                     <div class="textoap">
                         <strong>Consulta de historial académico</strong><br>
                         Accede en tiempo real a tus calificaciones, materias cursadas y avances
-                        académicos
+                        académicos.
                     </div>
                 </li>
 
@@ -39,7 +39,7 @@
                     <div class="textoap">
                         <strong>Caja y facturación electrónica</strong><br>
                         Genera fichas de pago, consulta tu estado de cuenta y descarga facturas al
-                        instante
+                        instante.
                     </div>
                 </li>
 
@@ -95,7 +95,7 @@
 
                 <a href="#" onclick="navegarCarrusel(1)">
 
-                    <img class="conten_iconos_icoap" src="/innova/hola/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
+                    <img class="conten_iconos_icoap" src="/innova/webescolar_promo/assets/image/flecha_derecha.png" alt="Iconos">
 
 
                 </a>

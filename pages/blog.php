@@ -17,8 +17,8 @@ $post = !empty($recent_posts) ? $recent_posts[0] : null;
   <div class="blog-mainbg">
     <div class="blog-buttonbg">
       <button onclick="window.location.href='#blog_barra'">Más temas de interés</button>
-      <a href="admin_blog.php" class="btn-new-post">
-        <i class="fas fa-plus"></i> Crear Nuevo Post
+      <a href="https://blog.webescolar.com.mx/" class="btn-new-post">
+        <i class="fas fa-plus"></i> Ir al blog
       </a>
     </div>
     

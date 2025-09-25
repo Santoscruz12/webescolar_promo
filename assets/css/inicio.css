@@ -272,3 +272,106 @@ text-align: justify;
         margin-top: 20px;
       }
 }
+
+/* ===== Ajustes específicos para la sección de inicio con clases "i" ===== */
+/* Contenedor de textos principal */
+.contenedoresi {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+}
+
+.conte_texti {
+            width: 45%;
+}
+
+.conte_imai {
+            width: 50%;
+            text-align: right;
+}
+
+.conte_ima_inii {
+            height: 500px;
+            width: auto;
+}
+
+/* Títulos */
+.conte_tituloi { font-size: 25px; }
+.conte_artificiali { margin-top: 5px; font-size: 46px; color: #253c81; font-weight: bold; }
+
+/* Bloque de tres líneas de descripción */
+.contenedores_escolari { 
+            width: 100%; 
+            text-align: center; 
+            padding: 15px 10px; 
+            margin: 20px 0; /* Separación del título */
+}
+.conte_escolari,
+.conte_escolar_2i,
+.conte_escolar_3i { 
+            font-size: 22px; 
+            margin: 3px 0; 
+            line-height: 1.3;
+}
+.resaltadoi { 
+            font-weight: bold; 
+            text-decoration: underline; 
+            color: #2230b2; 
+}
+
+/* Llamado a la acción: centrar y dar separación entre líneas y botón */
+.conte_contenidoi {
+            text-align: left; /* Alinear como los demás textos del bloque */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Botón y textos a la izquierda */
+            width: 100%; /* Ocupar toda la columna para alinear con títulos */
+            margin-left: 0; /* Evitar centrado por márgenes automáticos */
+            gap: 8px; /* Espacio reducido entre párrafos */
+            margin-top: 20px; /* Separación del texto superior */
+}
+
+.conte_autoi,
+.conte_auto2i {
+            font-size: 22px;
+            text-align: left; /* Alinear con el resto del texto */
+            margin: 0;
+            line-height: 1.2; /* Interlineado más compacto */
+}
+
+.conte_buttoni {
+            font-size: 18px;
+            border-radius: 15px;
+            padding: 12px 25px; /* Botón más grande */
+            color: white;
+            background: #41342c;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            margin-top: 15px; /* Separación clara del texto */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+}
+
+.conte_buttoni:hover {
+            background: #2d241f;
+}
+
+/* Responsivo para móviles en clases "i" */
+@media (max-width: 768px) {
+    .contenedoresi { flex-direction: column; padding: 0 15px; }
+    .conte_texti { width: 100% !important; }
+    .conte_imai { display: flex; justify-content: center; align-items: center; width: 100%; }
+    .conte_artificiali { font-size: 32px; }
+    .conte_tituloi { font-size: 20px; }
+    .conte_escolari,
+    .conte_escolar_2i,
+    .conte_escolar_3i,
+    .conte_autoi,
+    .conte_auto2i { font-size: 14px; }
+    .conte_contenidoi { text-align: center; align-items: center; }
+    .conte_autoi, .conte_auto2i { text-align: center; }
+    .conte_buttoni { width: 80%; font-size: 14px; }
+    .conte_ima_inii { height: auto; width: 250px; margin-top: 20px; }
+}
